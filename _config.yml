@@ -18,9 +18,9 @@ email: 'atul.singh.arora@gmail.com'
 description: "Dk Atul (the Dk stands for Donkey, in case you were wondering)"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://atulsingharora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 'jamigibbs'
+twitter_username: ''
 github_username: 'AtulSinghArora'
-#medium_username: 'blog.jamigibbs.com'
+medium_username: ''
 
 # Build settings
 markdown: kramdown
