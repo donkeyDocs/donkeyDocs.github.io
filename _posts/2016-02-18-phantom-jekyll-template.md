@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: left
-title: 'General Relativity'
+title: 'General Relativity, Part 1 (β version)'
 date: 2016-02-20 21:15:00
 categories: development design
 tags: Jekyll Sass Bootstrap
