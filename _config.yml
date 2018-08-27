@@ -19,7 +19,7 @@ description: "Donkey Documents. Intended to be a collection of physics notes. <b
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://atulsingharora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
-github_username: 'donkeyDocuments/donkeyDocuments.github.io'
+github_username: 'donkeyDocs/donkeyDocs.github.io'
 medium_username: ''
 
 # Build settings
