@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Donkey Documents"
 email: 'atul.singh.arora@gmail.com'
-description: "Hi. Welcome to donkeyDocs.github.io — a weekend project of mine. <br/> <br/> I intend to collect here all the notes I took while studying physics. General relativity is what encouraged me to set this up."
+description: "donkeyDocs.github.io <br/> <br/> I intend to collect here all the notes I took while studying physics. General relativity is what encouraged me to set this up."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://atulsingharora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
