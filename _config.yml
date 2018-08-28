@@ -16,6 +16,7 @@
 title: "Donkey Documents"
 email: 'atul.singh.arora@gmail.com'
 description: "donkeyDocs.github.io"
+# for further editing look at _layouts.home.html
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://atulsingharora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
