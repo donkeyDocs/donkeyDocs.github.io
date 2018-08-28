@@ -1,10 +1,10 @@
 ---
 layout: inner
 position: left
-title: 'General Relativity'
+title: 'General Relativity | α'
 date: 2016-02-20 21:15:00
 categories: development design
-tags: LaTeX Handwritten
+tags: α LaTeX Handwritten
 featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
 project_link: 'https://github.com/jamigibbs'
 button_icon: 'flask'
