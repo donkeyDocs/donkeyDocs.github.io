@@ -19,8 +19,8 @@ Based on the textbook by Katz and Lindell
 
 > | Date | Chapter     | Resources |  
 > |:-:|:-:|:-:|  
-> | TBA |Chapter 1 | <sub> [[notes]](../crypto/Ch1.pdf)  </sub>     |   
-> | TBA |Chapter 2 | <sub> [[notes]](../crypto/Ch2.pdf) </sub>      |  
+> | TBA |Chapter 1 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch1.pdf)  </sub>     |   
+> | TBA |Chapter 2 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch2.pdf) </sub>      |  
 > | TBA |Chapter 3 |  ...     |  
 
 </details>
