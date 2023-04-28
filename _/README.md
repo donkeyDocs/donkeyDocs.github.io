@@ -38,6 +38,7 @@ Based on the textbook by Katz and Lindell
 Goal: Review recent results in the area (beyond key distribution), based on computational assumptions.
 
 </summary>
+
 > Scheduled to start after "Introduction to Cryptography".
 
 </details>
@@ -45,11 +46,11 @@ Goal: Review recent results in the area (beyond key distribution), based on comp
 
 ## Past
 
-<details>
+<details open>
 <summary>
 
 ### Introduction to General Relativity
-Based on lectures by Ashok Sen. 
+Based on lectures delivered by Ashok Sen. 
 </summary>
 
 > | Lecture     | Notes |  Remarks
@@ -70,5 +71,8 @@ Based on lectures by Ashok Sen.
 
 </details>
 
+### Uncategorised notes
+
+The remaining notes [sit here](https://github.com/toAtulArora/physicsNotes) and are yet to be categorised.
 
 
