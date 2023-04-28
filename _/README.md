@@ -35,7 +35,7 @@ Based on the textbook by Katz and Lindell
 
 ### Advances in Quantum Cryptography
 
-Goal: Review recent results in the area (beyond key distribution), based on computational assumptions.
+Goal: Review recent results in the area (excluding key distribution), with an emphasis on results based on computational assumptions.
 
 </summary>
 
@@ -46,7 +46,7 @@ Goal: Review recent results in the area (beyond key distribution), based on comp
 
 ## Past
 
-<details open>
+<details>
 <summary>
 
 ### Introduction to General Relativity
@@ -71,8 +71,14 @@ Based on lectures delivered by Ashok Sen.
 
 </details>
 
+<details>
+<summary>
+
 ### Uncategorised notes
+
+</summary>
 
 The remaining notes [sit here](https://github.com/toAtulArora/physicsNotes) and are yet to be categorised.
 
+</details>
 
