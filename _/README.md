@@ -20,7 +20,7 @@ Based on the textbook by Katz and Lindell
 > | Date | Chapter     | Resources |  
 > |:-:|:-:|:-|  
 > | May 1, 2023 |Chapter 1 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch1.pdf)  </sub>   <sub> [[video—main]](https://youtu.be/r38DJjI64wc) </sub> <sub> [[video—questions]](https://youtu.be/oX3pgs_FRD4) </sub> |   
-> | May 1, 2023 |Chapter 2 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch2.pdf) </sub>   <sub> [[video—part 1]](https://youtu.be/CDgbvWgw7n4) </sub>  <sub> [[video—part 2]](https://youtu.be/co_zI8E7ubU) |  
+> | May 1 and 2, 2023 |Chapter 2 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch2.pdf) </sub>   <sub> [[video—part 1]](https://youtu.be/CDgbvWgw7n4) </sub>  <sub> [[video—part 2]](https://youtu.be/co_zI8E7ubU) |  
 > | ... |Chapter 3 |  ...     |  
 
 </details>
