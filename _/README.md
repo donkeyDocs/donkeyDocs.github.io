@@ -20,7 +20,7 @@ Based on the textbook by Katz and Lindell
 > | Date | Chapter     | Resources |  
 > |:-:|:-:|:-|  
 > | May 1, 2023 |Chapter 1 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch1.pdf)  </sub>   <sub> [[video—main]](https://youtu.be/r38DJjI64wc) </sub> <sub> [[video—questions]](https://youtu.be/oX3pgs_FRD4) </sub> |   
-> | May 1–3, 2023 |Chapter 2 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch2.pdf) </sub>   <sub> [[video—part 1]](https://youtu.be/CDgbvWgw7n4) </sub>  <sub> [[video—part 2]](https://youtu.be/co_zI8E7ubU), [[correction]](https://youtu.be/PHoWlhSLhLk) </sub> <sub> [[video—part 3]](https://youtu.be/PHoWlhSLhLk) </sub>|  
+> | May 1–3, 2023 |Chapter 2 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch2.pdf) </sub>   <sub> [[video—part 1]](https://youtu.be/CDgbvWgw7n4) </sub>  <sub> [[video—part 2]](https://youtu.be/co_zI8E7ubU) [[video-correction]](https://youtu.be/PHoWlhSLhLk) </sub> <sub> [[video—part 3]](https://youtu.be/PHoWlhSLhLk) </sub>|  
 > | May 3, 2023 |Chapter 3 |  <sub> [[video-part 1]](https://youtu.be/a0J_JWyn_Ww) </sub> |  
 
 </details>
