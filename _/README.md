@@ -15,7 +15,7 @@ Errors, comments, suggestions? Email me.
 
 ### Introduction to Cryptography
 
-Based on the textbook by Katz and Lindell
+Based on the textbook by Katz and Lindell. Internal [videos](https://umd0-my.sharepoint.com/:f:/g/personal/asarora_umd_edu/EvgdJWp_ABBHnoK8NQVRx80BtDugpRCEvnJrjG-ZgmbDdg?e=L2Af3Z) can be accessed with a password.
 
 </summary>
 
