@@ -27,7 +27,7 @@ Based on the textbook by Katz and Lindell
   > | June 6, '23 | Chapter~4 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch4.pdf) </sub> <br/>  <sub> video—[part 1](https://youtu.be/iHw2mOfr_Fo) (Difference between Encryption and Authentication, Definiton of MAC, replay attacks, Construction of a MAC) </sub> |
   > | ~| Chapter~5 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch5.pdf) </sub>   |
   > | ~| Chapter~6 | <sub> skipped for now </sub>   |
-  > | ~| Chapter~7 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch7.pdf) </sub>   |
+  > | ~| Chapter~7 | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Partial_Ch7.pdf) </sub>   |
 </details>
 
 
