@@ -19,6 +19,8 @@ Based on the textbook by Katz and Lindell.
 
 After Chapter 3, I couldn't do proper lectures but the internal [videos](https://umd0-my.sharepoint.com/:f:/g/personal/asarora_umd_edu/EvgdJWp_ABBHnoK8NQVRx80BtDugpRCEvnJrjG-ZgmbDdg?e=L2Af3Z) where I make notes, can be accessed with a password.
 
+We are presently meeting on Tuesdays and Wednesdays, 10:00 AM to 12:00 PM EST. Write to me if you want to join.
+
 </summary>
 
 > | Date | Chapter     | Resources |  
