@@ -32,8 +32,8 @@ We are presently meeting on **Tuesdays and Wednesdays, 10:00 AM to 12:00 PM EST*
   > | ~| Ch 5 Hash Functions and Applications | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch5.pdf) </sub>   |
   > | ~| Ch 6 Practical Constructions | <sub> skipped for now </sub>   |
   > | ~| Ch 7 Theoretical Constructions of Symmetric-key Primitives | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch7.pdf) </sub>   |
-  > | ~| Ch 8 Number Theory/Cryptographic hardness assumptions & 9 Algorithms for Factoring/Discrete log| [[partial notes Ch 8]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh8.pdf) <sub>skipped for now </sub>   |
-  > | ~| Ch 10 Key Management and the Public Key Revolution | <sub> [[partial notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh10.pdf) </sub>   |
+  > | ~| Ch 8 Number Theory/Cryptographic hardness assumptions & 9 Algorithms for Factoring/Discrete log| <sub>skipped for now; [[partial notes Ch 8]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh8.pdf) </sub>   |
+  > | ~| Ch 10 Key Management and the Public Key Revolution | <sub> Currently studying [[partial notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh10.pdf) </sub>   |
 </details>
 
 
