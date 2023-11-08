@@ -19,7 +19,7 @@ Based on the textbook by Katz and Lindell.
 
 After Chapter 3, I couldn't do proper lectures but the internal [videos](https://umd0-my.sharepoint.com/:f:/g/personal/asarora_umd_edu/EvgdJWp_ABBHnoK8NQVRx80BtDugpRCEvnJrjG-ZgmbDdg?e=L2Af3Z) where I make notes, can be accessed with a password.
 
-We are presently meeting on **Tuesdays and Wednesdays, 10:00 AM to 12:00 PM EST**. Write to me if you want to join.
+We are presently meeting on **Mondays and Tuesdays ~~Tuesdays and Wednesdays~~, 10:00 AM to 12:00 PM EST**. Write to me if you want to join.
 
 </summary>
 
@@ -33,7 +33,8 @@ We are presently meeting on **Tuesdays and Wednesdays, 10:00 AM to 12:00 PM EST*
   > | ~| Ch 6 Practical Constructions | <sub> skipped for now </sub>   |
   > | ~| Ch 7 Theoretical Constructions of Symmetric-key Primitives | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch7.pdf) </sub>   |
   > | ~| Ch 8 Number Theory/Cryptographic hardness assumptions & 9 Algorithms for Factoring/Discrete log| <sub>skipped for now; [[partial notes Ch 8]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh8.pdf) </sub>   |
-  > | ~| Ch 10 Key Management and the Public Key Revolution | <sub> currently studying; [[partial notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh10.pdf) </sub>   |
+  > | ~| Ch 10 Key Management and the Public Key Revolution | <sub> [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/Ch10.pdf) </sub>   |
+> | ~ | Ch 11 Public Key Encryption | <sub> currently studying [[notes]](https://github.com/donkeyDocs/donkeyDocs.github.io/raw/master/crypto/partialCh10.pdf) </sub>
 </details>
 
 
