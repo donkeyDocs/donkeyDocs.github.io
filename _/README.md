@@ -8,18 +8,42 @@ Errors, comments, suggestions? Email me.
 
 <sub> [ atul.singh.arora@gmail.com | asarora@caltech.edu ] </sub>
 
+
 ## Active
 
-<details open>
+<details>
+<summary>
+
+### Quantum aspects of cryptography
+
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. Write to me if you want to join.
+
+</summary>
+
+> | Date | Lecture     | Resources |  
+> |:-:|:-:|:-|  
+> |  |  |  <sub> Blank links: </sub> <sub> [[notes]]()  </sub>  <br/> <sub> [[video]]() </sub> |   
+
+
+</details>
+
+
+<!-- ## Upcoming -->
+
+## Past
+
+
+
+<details>
 <summary>
 
 ### Introduction to Cryptography
 
 Based on the textbook by Katz and Lindell. 
 
-After Chapter 3, I couldn't do proper lectures but the internal [videos](https://umd0-my.sharepoint.com/:f:/g/personal/asarora_umd_edu/EvgdJWp_ABBHnoK8NQVRx80BtDugpRCEvnJrjG-ZgmbDdg?e=L2Af3Z) where I make notes, can be accessed with a password.
+<!-- After Chapter 3, I couldn't do proper lectures but the internal [videos](https://umd0-my.sharepoint.com/:f:/g/personal/asarora_umd_edu/EvgdJWp_ABBHnoK8NQVRx80BtDugpRCEvnJrjG-ZgmbDdg?e=L2Af3Z) where I make notes, can be accessed with a password.
 
-We are presently meeting on **Mondays and Tuesdays ~~Tuesdays and Wednesdays~~, 10:00 AM to 12:00 PM EST**. Write to me if you want to join.
+We are presently meeting on **Mondays and Tuesdays ~~Tuesdays and Wednesdays~~, 10:00 AM to 12:00 PM EST**. Write to me if you want to join. -->
 
 </summary>
 
@@ -40,25 +64,10 @@ We are presently meeting on **Mondays and Tuesdays ~~Tuesdays and Wednesdays~~, 
 
 
 
-## Upcoming
+
+
 
 <details>
-<summary>
-
-### Advances in Quantum Cryptography
-
-Goal: Review recent results in the area (excluding key distribution), with an emphasis on results based on computational assumptions.
-
-</summary>
-
-> Scheduled to start after "Introduction to Cryptography".
-
-</details>
-
-
-## Past
-
-<details open>
 <summary>
 
 ### Introduction to General Relativity
@@ -82,6 +91,7 @@ Based on lectures delivered by Ashok Sen.
 
 
 </details>
+
 
 <details>
 <summary>
