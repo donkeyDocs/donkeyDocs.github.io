@@ -11,7 +11,7 @@ Errors, comments, suggestions? Email me.
 
 ## Active
 
-<details>
+<details open>
 <summary>
 
 ### Quantum aspects of cryptography
@@ -22,7 +22,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 > | Date | Lecture     | Resources |  
 > |:-:|:-:|:-|  
-> |  |  |  <sub> Blank links: </sub> <sub> [[notes]]()  </sub>  <br/> <sub> [[video]]() </sub> |   
+> |  |  |  <sub> Blank links: </sub> <br/> <sub> [[notes]]()  </sub>  <br/> <sub> [[video]]() </sub> |   
 
 
 </details>
