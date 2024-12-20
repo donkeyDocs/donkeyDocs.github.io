@@ -16,7 +16,7 @@ Errors, comments, suggestions? Email me.
 
 ### Quantum aspects of cryptography
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. Write to me if you want to join.
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 
 </summary>
 
