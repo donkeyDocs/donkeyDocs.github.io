@@ -4,4 +4,4 @@ Meant to be a [repository of my notes](https://donkeydocs.github.io) on various 
 
 The best way to reach me is by email.
 
-<sub> [ atul.singh.arora@gmail.com | asarora@caltech.edu ] </sub>
+<sub> [ atul.singh.arora@gmail.com ] </sub>
