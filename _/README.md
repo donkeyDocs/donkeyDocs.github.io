@@ -14,15 +14,17 @@ Errors, comments, suggestions? Email me.
 <details open>
 <summary>
 
-### Quantum aspects of cryptography
+### Quantum Aspects of Cryptography
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. Here's the [course outline](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf). 
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
+* Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
+* Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.) 
 
 </summary>
 
 > | Date | Lecture     | Resources |  
 > |:-:|:-:|:-|  
-> |  |  |  <sub> Blank links: </sub> <br/> <sub> [[notes]]()  </sub>  <br/> <sub> [[video]]() </sub> |   
+> | Thu, Jan 2, 2025 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W1_Ch1_2-partial_pg10.pdf)  </sub>  <br/> <sub> [[video]](https://youtu.be/2bDujuFVhVo) </sub> |   
 
 
 </details>
