@@ -26,7 +26,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > |:-:|:-:|:-|  
 > | Thu, Jan 2, 2025 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W1_Ch1_2-partial_pg10.pdf)  </sub>  <br/> <sub> [[video]](https://youtu.be/2bDujuFVhVo) </sub> |
 > | Mon, Jan 6, 2025 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
-
+> | Thu, Jan 9, 2025 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> [[notes]] (soon) </sub> <br/> <sub>[[video]](https://youtu.be/LClPJ7phDAg) </sub>
 
 </details>
 
