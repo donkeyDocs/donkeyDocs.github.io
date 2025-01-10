@@ -27,7 +27,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Thu, Jan 2, 2025 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W1_Ch1_2-partial_pg10.pdf)  </sub>  <br/> <sub> [[video]](https://youtu.be/2bDujuFVhVo) </sub> |
 > | Mon, Jan 6, 2025 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
 > | Thu, Jan 9, 2025 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> [[notes]] (soon) </sub> <br/> <sub>[[video]](https://youtu.be/LClPJ7phDAg) </sub>
-> | Fri, Jan 10, 2025 | 3 cont | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
+> | Fri, Jan 10, 2025 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
 
 </details>
 
