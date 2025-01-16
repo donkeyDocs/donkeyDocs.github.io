@@ -18,7 +18,7 @@ Errors, comments, suggestions? Email me.
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
-* Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.) 
+* (partially typed) Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.) 
 
 </summary>
 
@@ -28,7 +28,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Jan 6, 2025 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
 > | Thu, Jan 9, 2025 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> [[notes]] (soon) </sub> <br/> <sub>[[video]](https://youtu.be/LClPJ7phDAg) </sub>
 > | Fri, Jan 10, 2025 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
-
+> | Mon, Jan 13, 2025 | Holiday | 
+> | Fri, Jan 17, 2024 | 4 | Certified deletion—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion   <br/> <sub> [[notes]] (soon) </sub> <br/> <sub> [[video]](https://youtu.be/wEV8BScu8_I) </sub>
 </details>
 
 
