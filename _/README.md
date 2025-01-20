@@ -6,7 +6,7 @@ Still very much a work-in-progress. Meant to be a repository of *my notes* on va
 
 Errors, comments, suggestions? Email me.
 
-<sub> [ atul.singh.arora@gmail.com | asarora@caltech.edu ] </sub>
+<sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
 
 
 ## Active
