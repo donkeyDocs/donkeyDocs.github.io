@@ -1,4 +1,4 @@
-<img width="637" alt="image" src="https://github.com/user-attachments/assets/835e1564-b94a-4d76-a480-344294a86b16" />
+
 
 # Donkey Docs
 
