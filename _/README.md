@@ -29,7 +29,11 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Thu, Jan 9, 2025 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> [[notes]] (soon) </sub> <br/> <sub>[[video]](https://youtu.be/LClPJ7phDAg) </sub>
 > | Fri, Jan 10, 2025 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
 > | Mon, Jan 13, 2025 | Holiday | 
-> | Thu, Jan 16, 2024 | 4 | Certified deletion—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion   <br/> <sub> [[notes]] (soon) </sub> <br/> <sub> [[video]](https://youtu.be/wEV8BScu8_I) </sub>
+> | Thu, Jan 16, 2025 | 4 | Certified deletion—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion   <br/> <sub> [[notes]] (soon) </sub> <br/> <sub> [[video]](https://youtu.be/wEV8BScu8_I) </sub>
+> | Mon, Jan 20, 2025 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]] (soon) </sub> <br/> <sub> [[video]] (soon) </sub> <br/>
+> | Mon, Jan 20, 2025 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]] (soon) </sub>
+
+
 </details>
 
 
