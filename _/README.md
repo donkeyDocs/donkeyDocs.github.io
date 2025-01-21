@@ -6,7 +6,7 @@ Still very much a work-in-progress. Meant to be a repository of *my notes* on va
 
 Errors, comments, suggestions? Email me.
 
-<sub> [ atul.singh.arora@gmail.com | asarora@caltech.edu ] </sub>
+<sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
 
 
 ## Active
@@ -14,11 +14,12 @@ Errors, comments, suggestions? Email me.
 <details open>
 <summary>
 
-### Quantum Aspects of Cryptography
+### Quantum Aspects of Cryptography—active
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
-* Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.) 
+* (partially typed) Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.)
+* (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup>
 
 </summary>
 
@@ -28,6 +29,11 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Jan 6, 2025 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
 > | Thu, Jan 9, 2025 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> [[notes]] (soon) </sub> <br/> <sub>[[video]](https://youtu.be/LClPJ7phDAg) </sub>
 > | Fri, Jan 10, 2025 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
+> | Mon, Jan 13, 2025 | Holiday | 
+> | Thu, Jan 16, 2025 | 4 | Certified deletion—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion   <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W3_L1_part1_cert_deletion1.pdf)  </sub> <br/> <sub> [[video]](https://youtu.be/wEV8BScu8_I) </sub>
+> | Mon, Jan 20, 2025 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) </sub> <br/> <sub> [[video]] (soon) </sub> <br/>
+> | Mon, Jan 20, 2025 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) (same as Lec 5) </sub>
+
 
 </details>
 
