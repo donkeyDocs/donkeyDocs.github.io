@@ -18,14 +18,16 @@ Errors, comments, suggestions? Email me.
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
-* Partially typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
-* All hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Notes
+  * Typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
+  * Hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Recorded lectures <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup>
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
 </summary>
 
-> | Date | Week | Lecture     | Resources |  
+> | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
 > | Thu, Jan 2, 2025 | 1 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W1_Ch1_2-partial_pg10.pdf)  </sub>  <br/> <sub> [[video]](https://youtu.be/2bDujuFVhVo) </sub> |
 > | Mon, Jan 6, 2025 | 2 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
@@ -39,7 +41,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 #### Assignments
 
-All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
+* All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
 
 > | Assignment | Assigned on | Due on |
 > |:-:|:-:|:-:|
