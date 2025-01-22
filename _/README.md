@@ -18,8 +18,8 @@ Errors, comments, suggestions? Email me.
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
-* (partially typed) Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.)
-* Hand-written Lecture Notes. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Partially typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
+* All hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
@@ -36,6 +36,15 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Jan 20, 2025 | 4 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) </sub> <br/> <sub> [[video]](https://youtu.be/Xx4bju8lLb8)  </sub> <br/>
 > | Mon, Jan 20, 2025 | 4 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) (same as Lec 5) </sub>
 
+
+#### Assignments
+
+All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
+
+> | Assignment | Assigned on | Due on |
+> |:-:|:-:|:-:|
+> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 |
 
 </details>
 
