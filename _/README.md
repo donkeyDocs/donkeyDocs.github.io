@@ -23,8 +23,9 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
   * Hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
 * Recorded lectures
    * YouTube (until and including lecture 5) <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup>
-<!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
    * OneDrive (after and still including lecture 5) <sup><sub> [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF) </sub></sup>
+
+<!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
 </summary>
