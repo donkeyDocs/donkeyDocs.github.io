@@ -14,18 +14,20 @@ Errors, comments, suggestions? Email me.
 <details open>
 <summary>
 
-### Quantum Aspects of Cryptography—active
+### Quantum Aspects of Cryptography
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
-* (partially typed) Lecture Notes. <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> (I am studying to teach! So these will be messy at first but will hopefully be polished later.)
-* Hand-written Lecture Notes. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Notes
+  * Typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
+  * Hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Recorded lectures <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup>
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
 </summary>
 
-> | Date | Week | Lecture     | Resources |  
+> | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
 > | Thu, Jan 2, 2025 | 1 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W1_Ch1_2-partial_pg10.pdf)  </sub>  <br/> <sub> [[video]](https://youtu.be/2bDujuFVhVo) </sub> |
 > | Mon, Jan 6, 2025 | 2 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W2_L1_QuantumAspectsOfCryptography.pdf) </sub>  <br/>  <sub> [[video]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
@@ -33,9 +35,19 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Fri, Jan 10, 2025 | 2 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
 > | Mon, Jan 13, 2025 | 3 | Holiday | 
 > | Thu, Jan 16, 2025 | 3 | 4 | Certified deletion—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion   <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W3_L1_part1_cert_deletion1.pdf)  </sub> <br/> <sub> [[video]](https://youtu.be/wEV8BScu8_I) </sub>
-> | Mon, Jan 20, 2025 | 4 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) </sub> <br/> <sub> [[video]](https://youtu.be/Xx4bju8lLb8)  </sub> <br/>
-> | Mon, Jan 20, 2025 | 4 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) (same as Lec 5) </sub>
+> | Mon, Jan 20, 2025 | 4 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) </sub> <br/> <sub> [[video]](https://youtu.be/Xx4bju8lLb8)  </sub>  |
+> | Mon, Jan 20, 2025 | 4 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) (same as Lec 5) </sub> |
+> | Thu, Jan 23, 2025 | 4 | 6 | Looked at encryption with certified deletion semi-formally, revisited the definition, gave a construction, and a sketch of the proof, outlining the main hybrids and the key ideas. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video (will be uploaded to) <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 
+
+#### Assignments
+
+* All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
+
+> | Assignment | Assigned on | Due on |
+> |:-:|:-:|:-:|
+> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 |
 
 </details>
 
