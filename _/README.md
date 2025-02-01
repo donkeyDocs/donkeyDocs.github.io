@@ -44,7 +44,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Jan 27, 2025 | 5 | 7 | Proof of **certified deletion**, part 1 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 > | Thu, Jan 30, 2025 | 5 | 8 | Proof of **certified deletion**, part 2 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 
-* These lectures were pre-recorded to supplement classroom lectures.
+\* These lectures were pre-recorded to supplement classroom lectures.
 
 #### Assignments
 
