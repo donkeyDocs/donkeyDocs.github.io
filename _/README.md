@@ -59,6 +59,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 |
 > | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 |
 > | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 |
+> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 |
 
 </details>
 
