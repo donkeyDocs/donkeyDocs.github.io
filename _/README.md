@@ -16,7 +16,7 @@ Errors, comments, suggestions? Email me.
 
 ### Quantum Aspects of Cryptography
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 11:30 AM to 1:00 PM EST**. 
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 10:00 AM to 11:30 AM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
 * Notes
   * Typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
@@ -41,8 +41,15 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Jan 20, 2025 | 4 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) </sub> <br/> <sub> [[video]](https://youtu.be/Xx4bju8lLb8)  </sub>  |
 > | Mon, Jan 20, 2025 | 4 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> [[notes]](../QuantumAspectsOfCryptography/WeeklyLN/W4_L1_crypto_basics_1.pdf) (same as Lec 5) </sub> |
 > | Thu, Jan 23, 2025 | 4 | 6 | Looked at encryption with **certified deletion** semi-formally, revisited the definition, gave a construction, and a sketch of the proof, outlining the main hybrids and the key ideas. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
-> | Mon, Jan 27, 2025 | 5 | 7 | Proof of **certified deletion**, part 1 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video (will be added soon) <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Jan 27, 2025 | 5 | 7 | Proof of **certified deletion**, part 1 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Jan 30, 2025 | 5 | 8 | Proof of **certified deletion**, part 2 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Feb 3, 2025 | 6 | 9 | Introduced **Uncloneable Encryption** <br/> Notes <sup><sub> (will be uploaded soon) [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 6, 2025 | 6 | - | Cancelled |
+> | Mon, Feb 10, 2025 | 7 | 10 | Completed the introduction to **Uncloneable Encryption**. Started with the technical overview. <br/> Notes <sup><sub> (will be uploaded soon) [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 
+
+
+\* These lectures were pre-recorded to supplement classroom lectures.
 
 #### Assignments
 
@@ -52,6 +59,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > |:-:|:-:|:-:|
 > | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 |
 > | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 |
+> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 |
+> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 |
 
 </details>
 
