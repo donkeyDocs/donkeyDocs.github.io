@@ -56,12 +56,12 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 * All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
 
-> | Assignment | Assigned on | Due on | Topic | 
-> |:-:|:-:|:-:|:-|
-> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 | Quantum Basics | 
-> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality |
-> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | 
-> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion |
+> | Assignment | Assigned on | Due on | Topic | Graded On | 
+> |:-:|:-:|:-:|:-|:-:|
+> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 | Quantum Basics | Fri, Feb 21, 2025 |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | | 
+> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | |
+> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion | |
 
 </details>
 
