@@ -46,7 +46,10 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Feb 3, 2025 | 6 | 9 | Introduced **Uncloneable Encryption** <br/> Notes <sup><sub>[[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 > | Thu, Feb 6, 2025 | 6 | - | Cancelled |
 > | Mon, Feb 10, 2025 | 7 | 10 | Completed the introduction to **Uncloneable Encryption**. Started with the technical overview. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
-> | Mon, Feb 11, 2025 | 7 | 11 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 1. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 13, 2025 | 7 | 11 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 1. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 20, 2025 | 8 | 12 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 2 (completed). Technical overview of the actual construction started. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Sat, Feb 22, 2025 | 8 | 13 | **Uncloneable Encryption** schemes. Technical overview of the actual construction (cont.) <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube (soon) [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+
 
 
 
@@ -56,12 +59,12 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 * All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
 
-> | Assignment | Assigned on | Due on |
-> |:-:|:-:|:-:|
-> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 |
-> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 |
-> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 |
-> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 |
+> | Assignment | Assigned on | Due on | Topic | Graded On | 
+> |:-:|:-:|:-:|:-|:-:|
+> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 | Quantum Basics | Fri, Feb 21, 2025 |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | | 
+> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | |
+> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion | |
 
 </details>
 
