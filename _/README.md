@@ -81,7 +81,9 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 #### Exams
 The question paper and partial answers.
 
-**Midsem**: [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Midsem)
+> | Exam | |
+> |:-:|:-:|
+> | Midsem | [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Midsem) |
 
 </details>
 
