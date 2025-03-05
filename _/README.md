@@ -48,7 +48,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Mon, Feb 10, 2025 | 7 | 10 | Completed the introduction to **Uncloneable Encryption**. Started with the technical overview. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 > | Thu, Feb 13, 2025 | 7 | 11 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 1. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 > | Thu, Feb 20, 2025 | 8 | 12 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 2 (completed). Technical overview of the actual construction started. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
-> | Sat, Feb 22, 2025 | 8 | 13 | **Uncloneable Encryption** schemes. Technical overview of the actual construction (cont.) <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube (soon) [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Sat, Feb 22, 2025 | 8 | 13 | **Uncloneable Encryption** schemes. Technical overview of the actual construction (cont.) <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Sat, Feb 22, 2025 | 9 | 14 | **Uncloneable Encryption** scheme, completed the technical overview, coset states (formally stating properties), coset state "direct product theorem" stated, Monogamy of Entanglement game for coset states ("search version"), stated the strengthened varaint (distinguishability), stated the actual scheme formally, showed how its security follows from that of the strengthened MoE game for cosets. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube (soon) [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
 
 
 
@@ -65,6 +66,22 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | | 
 > | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | |
 > | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion | |
+
+* Starting with Assignment 5, the due dates will be written directly in the PDF. Please also update the Google spreadsheet when you submit your answers to OneDrive (both links are in the PDF).
+
+
+> | Assignment | Topic | Graded On | 
+> |:-:|:-|:-:|
+> | 5 | Uncloneable Encryption (UE), basics |  |
+> | 6 | UE impossibility of deterministic schemes |  |
+> | 7 | UE construction in ROM |  |
+
+
+
+#### Exams
+The question paper and partial answers.
+
+**Midsem**: [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Midsem)
 
 </details>
 
