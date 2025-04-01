@@ -71,8 +71,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | Assignment | Assigned on | Due on | Topic | Graded On | 
 > |:-:|:-:|:-:|:-|:-:|
 > | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 | Quantum Basics | Fri, Feb 21, 2025 |
-> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | | 
-> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | Fri, Mar 21, 2025 | 
+> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | Fri, Mar 28, 2025 |
 > | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion | |
 
 * Starting with Assignment 5, the due dates will be written directly in the PDF. Please also update the Google spreadsheet when you submit your answers to OneDrive (both links are in the PDF).
@@ -83,6 +83,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | 5 | Uncloneable Encryption (UE), basics |  |
 > | 6 | UE impossibility of deterministic schemes |  |
 > | 7 | UE construction in ROM |  |
+> | 8 | Haar Measure |  |
+> | 9 | PRSGs ⇒ Commitments |  |
 
 
 
