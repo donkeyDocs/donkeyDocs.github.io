@@ -92,6 +92,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 > | 7 | UE construction in ROM |  |
 > | 8 | Haar Measure |  |
 > | 9 | PRSGs ⇒ Commitments |  |
+> | 10 | BQP=QMA, yet PRU exist, QFHE |  |
+> | 11 | Self-testing, Verification |  |
 
 
 
