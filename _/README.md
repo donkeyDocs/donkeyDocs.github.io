@@ -101,7 +101,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 > | Exam | | Conducted on | Graded on | 
 > |:-:|:-:|:-:|:-:|
-> | Midsem | Question paper and partial answers <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Midsem) </sup></sup>| Sat, March 1, 2025 | Fri, March 7, 2025 |
+> | Midsem | Question paper and partial answers <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Exams) </sup></sup>| Sat, March 1, 2025 | Fri, March 7, 2025 |
+> | Endsem | Question paper and partial answers <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Exams) </sup></sup>| Tue, April 29, 2025 |  |
 
 </details>
 
