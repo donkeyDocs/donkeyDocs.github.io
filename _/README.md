@@ -14,9 +14,9 @@ Errors, comments, suggestions? Email me.
 <details open>
 <summary>
 
-### Quantum Aspects of Cryptography
+### Linear Algebra
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Mondays and Thursdays, 10:00 AM to 11:30 AM EST**. 
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
 * Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
 * Notes
   * Typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
@@ -111,7 +111,102 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 ## Past
 
+<details>
+<summary>
 
+### Quantum Aspects of Cryptography (Winter 2025)
+
+The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. 
+<!-- We are meeting on **Mondays and Thursdays, 10:00 AM to 11:30 AM EST**.  -->
+ 
+
+</summary>
+
+* Course Outline. <sup><sub> [[pdf](../QuantumAspectsOfCryptography/QuantumAspectsOfCryptograph_outline_0v2_1.pdf)] </sub></sup>
+* Notes
+  * Typed notes (for lectures 1 to 3). <sup><sub> [[overleaf](https://www.overleaf.com/read/kfvbrfsgnpmp#3c3860)] </sub></sup> 
+  * Hand-written notes (from lecture 4 onwards). <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup>
+* Recorded lectures
+   * YouTube (may be slightly behind OneDrive) <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup>
+   * OneDrive (lecture 5 onwards) <sup><sub> [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF) </sub></sup>
+
+<!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
+
+> | Date | Week | Lecture     | Topics covered |  
+> |:-:|:-:|:-:|:-|  
+> | Thu, Jan 2, 2025 | 1 | 1 |  <sub>  </sub> Introduction---four areas of active research, Introduction to Quantum, Stern Gerlach, Double Slit, Braket notation <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/)  </sub>  <br/> <sub> Video [[YouTube]](https://youtu.be/2bDujuFVhVo) </sub> |
+> | Mon, Jan 6, 2025 | 2 | 2 | <sub> </sub> Axioms informal, notation and linear algebra, axioms formal, application to Stern Gerlach <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/) </sub>  <br/>  <sub> Video [[YouTube]](https://youtu.be/CQG2eMExGr4) (barely usable audio) </sub>
+> | Thu, Jan 9, 2025 | 2 | 3 | <sub> </sub> Commutators, uncertainty principle, mixed states, purifications, Uhlman's theorem, Schmidt decomposition <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/) </sub> <br/> <sub> Video [[YouTube]](https://youtu.be/LClPJ7phDAg) </sub>
+> | Fri, Jan 10, 2025 | 2 | 3* | Schmidt decomposition (cont), POVMs, Channels, Operator Sum and Steinspring representation, Quantum Circuit formalism, Teleportation, Fidelity/Trace Distance/Diamond Norm, Simons problem <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8XthYj-m6L7UDb-DpLsw3xn) </sub>
+> | Mon, Jan 13, 2025 | 3 | Holiday | 
+> | Thu, Jan 16, 2025 | 3 | 4 | **Certified deletion**—construction for 2-out of 2 secret sharing with certified deletion, semi-formal definition of encryption with certified deletion. [Bartusek and Khurana '22](https://arxiv.org/abs/2207.01754)  <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/W3_L1_part1_cert_deletion1.pdf) </sub> <br/> <sub> Video [[YouTube]](https://youtu.be/wEV8BScu8_I) </sub>
+> | Mon, Jan 20, 2025 | 4 | 5 | Review, basics of cryptography—methodology, Kirchoff's principle, subtleties in defining secret encryption, perfect security, equivalent definitions, computational security, PPT and negligible functions, indistinguishable encryptions <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/) </sub> <br/> <sub> Video [[YouTube]](https://youtu.be/Xx4bju8lLb8)  </sub>  |
+> | Mon, Jan 20, 2025 | 4 | 5* | Definition of Semantic, CPA and CCA security, realising semantic security using pseudorandom generators (also introduced) and realising CPA security using pseudorandom functions (also introduced). <br/> <sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8UGjq5k-I_M10NPLibP3qI2) </sub> <br/> <sub> Notes [[folder]](../QuantumAspectsOfCryptography/WeeklyLN/) </sub> |
+> | Thu, Jan 23, 2025 | 4 | 6 | Looked at encryption with **certified deletion** semi-formally, revisited the definition, gave a construction, and a sketch of the proof, outlining the main hybrids and the key ideas. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Jan 27, 2025 | 5 | 7 | Proof of **certified deletion**, part 1 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Jan 30, 2025 | 5 | 8 | Proof of **certified deletion**, part 2 of 2 <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Feb 3, 2025 | 6 | 9 | Introduced **Uncloneable Encryption** [AKLLZ '22](https://arxiv.org/abs/2207.06589) <br/> Notes <sup><sub>[[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 6, 2025 | 6 | - | Cancelled |
+> | Mon, Feb 10, 2025 | 7 | 10 | Completed the introduction to **Uncloneable Encryption**. Started with the technical overview. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 13, 2025 | 7 | 11 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 1. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Feb 20, 2025 | 8 | 12 | Impossibility of deterministic **Uncloneable Encryption** schemes. Proof. Part 2 (completed). Technical overview of the actual construction started. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Sat, Feb 22, 2025 | 8 | 13 | **Uncloneable Encryption** schemes. Technical overview of the actual construction (cont.) <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Sat, Feb 22, 2025 | 9 | 14 | **Uncloneable Encryption** scheme, completed the technical overview, coset states (formally stating properties), coset state "direct product theorem" stated, Monogamy of Entanglement game for coset states ("search version"), stated the strengthened varaint (distinguishability), stated the actual scheme formally, showed how its security follows from that of the strengthened MoE game for cosets. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Mar 6, 2025 | 10 | 15 | **Uncloneable Encryption**. Proving the security of the strengthened MoE game for cosets. Part 1. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Mar 10, 2025 | 11 | 16 | **Uncloneable Encryption**. Proving the security of the strengthened MoE game for cosets. Part 2 (almost done, one small part of the argument is left). <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Mar 13, 2025 | 11 | 17 | **Uncloneable Encryption**. Proving the security of the strengthened MoE game for cosets. Part 3 (completed the small final part of the argument). <br/> Started with **Pseudorandom States**. Motivated them. Introduced some background—Haar measure and symmetric subspaces. <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Mar 17, 2025 | 12 | 18 | **Haar measure**. Started with a proper tutorial on the Haar measure. [Mele'23](https://arxiv.org/abs/2307.08956) <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube  [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Mar 20, 2025 | 12 | 19 |  **Haar measure**. Continued with the tutorial on the Haar measure. <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive  [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Mar 24, 2025 | 13 | 20 | **Haar measure**. Completed the tutorial on the Haar measure. <br/> **Pseudorandom States ⇒ Commitment.** [Morimae and Yamakawa '21](https://arxiv.org/abs/2112.06369) Introduced Naur's classical construction based on a PRG. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Mar 27, 2025 | 13 | 21\*\* | **Pseudorandom States ⇒ Commitment.** Introduced the construction, argued security. Formally stated the definition, the construction and completed the formal proof. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive (different link from the rest) [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/atul_arora_iiit_ac_in/EiIFH8iUQNhJou4y60erLM8BnVtDbgo2qFHeoVO03oPM0w?e=fdtw1w)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Mar 31, 2025 | 14 | Holiday | |
+> | Thu, Apr 3, 2025 | 14 | 22 | Relative to a quantum oracle, **BQP = QMA and yet, Pseudorandom unitaries exist.** Introduction and preliminaries to establish this result. [Kretschmer '21 (v5 '24)](https://arxiv.org/abs/2103.09320) <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Apr 7, 2025 | 15 | 23 | Relative to a quantum oracle, **BQP = QMA and yet, Pseudorandom unitaries exist.** Proving the first part of this result. <br/> Notes <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Apr 10, 2025 | 15 | 24 | Relative to a quantum oracle, **BQP = QMA and yet, Pseudorandom unitaries exist.** Completed the proof of the first part of this result (one step appears to have some gap). <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive  [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube  [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Mon, Apr 14, 2025 | 16 | 25 | **Quantum Fully Homomorphic Encryption** explained from the Appendix of [KLVY '22](https://arxiv.org/abs/2203.15877). <br/> (cont.) **BQP = QMA and yet, Pseudorandom unitaries exist.** Barely started the second part of this result (motivated how the proof goes through Grover's search). <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive  [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube  [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Apr 17, 2025 | 16 | - | Friday's schedule was followed, we lost a class. |
+> | Mon, Apr 21, 2025 | 17 | 26 | **Self-testing.** Gave the construction for CHSH explicitly from [Šupić and Bowles '19](https://arxiv.org/abs/1904.10042). <br/> (cont.) **BQP = QMA and yet, Pseudorandom unitaries exist.** Completed the proof of the second part of this result, but in the case without advice (formalised how it reduces to Grover's search). <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive  [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube  [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+> | Thu, Apr 24, 2025 | 17 | 27 | **Verification.** Explained Grilo's construction for classical verification of quantum computation, in one round, with two non-communicating provers. [Grilo '17](https://arxiv.org/abs/1711.09585)  <br/> Notes <sup><sub>  [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/WeeklyLN) </sub></sup> <br/> Video <sup><sub>OneDrive  [[folder]](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/saikumar_ravu_iiit_ac_in/EkR_XvZnKbBDg_t_V_4QeeUB2bpem3LrHdXQ06jvz_1u-w?e=jWRDXF)</sup></sub> <sup><sub>YouTube  [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8WzxHvqc2NBKbzrjbKHzeEW) </sub></sup> |
+
+
+
+\* These lectures were pre-recorded to supplement classroom lectures. <br/>
+\*\*  "Pre-recorded" possibly because no one showed up on time
+
+#### Assignments
+
+* All assignments are sitting in this folder. <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Assignments) </sub></sup>
+
+> | Assignment | Assigned on | Due on | Topic | Graded On | 
+> |:-:|:-:|:-:|:-|:-:|
+> | 1 | Thu, Jan 23, 2025 | 2 weeks, Thu, Feb 6, 2025 | Quantum Basics | Fri, Feb 21, 2025 |
+> | 2 | Thu, Jan 23, 2025 | 3 weeks, Thu, Feb 13, 2025 | Non-locality | Fri, Mar 21, 2025 | 
+> | 3 | Mon, Feb 3, 2025 | 3 weeks, Mon, Feb 24, 2025 | Crypto Review | Fri, Mar 28, 2025 |
+> | 4 | Mon, Feb 10, 2025 | 2 weeks, Mon, Feb 24, 2025 | Certified Deletion | |
+
+* Starting with Assignment 5, the due dates will be written directly in the PDF. Please also update the Google spreadsheet when you submit your answers to OneDrive (both links are in the PDF).
+
+
+> | Assignment | Topic | Graded On | 
+> |:-:|:-|:-:|
+> | 5 | Uncloneable Encryption (UE), basics |  |
+> | 6 | UE impossibility of deterministic schemes |  |
+> | 7 | UE construction in ROM |  |
+> | 8 | Haar Measure |  |
+> | 9 | PRSGs ⇒ Commitments |  |
+> | 10 | BQP=QMA, yet PRU exist, and QFHE |  |
+> | 11 | Self-testing, and Verification |  |
+
+
+
+#### Exams
+
+> | Exam | | Conducted on | Graded on | 
+> |:-:|:-:|:-:|:-:|
+> | Midsem | Question paper and partial answers <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Exams) </sup></sup>| Sat, March 1, 2025 | Fri, March 7, 2025 |
+> | Endsem | Question paper and partial answers <sup><sub> [[folder]](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/QuantumAspectsOfCryptography/Exams) </sup></sup>| Tue, April 29, 2025 |  |
+
+</details>
 
 <details>
 <summary>
