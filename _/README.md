@@ -24,7 +24,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
   * Lecture Notes (what I made to teach). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/LectureNotes) </sub></sup>
 * Recorded lectures
    * OneDrive links are listed as "recording" against each lecture below.
-   * (upcoming) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
+   * (scheduled) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
 
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
@@ -42,7 +42,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 #### Assignments
 
-* All assignments are sitting in this folder. <sup><sub> [[folder]]() </sub></sup>
+* (upcoming) All assignments are sitting in this folder. <sup><sub> [[folder]]() </sub></sup> 
 
 > | Assignment |  Topic | 
 > |:-:|:-:|
@@ -54,7 +54,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 #### Exams
 
-* All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]]() </sup></sup>
+* (scheduled) All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]]() </sup></sup> 
 
 > | Exam | Topics |  
 > |:-:|:-:|
