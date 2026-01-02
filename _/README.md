@@ -16,7 +16,7 @@ Errors, comments, suggestions? Email me.
 
 ### Linear Algebra (Winter/Spring 2026)
 
-This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
+This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. To join remotely, use the Teams link for the course on our  [Moodle page](https://courses.iiit.ac.in).
 
 * Course Outline. <sup><sub> [[pdf](../LinearAlgebra_WinterSpring_2026/CourseOutline.pdf)] </sub></sup>
 * Notes
