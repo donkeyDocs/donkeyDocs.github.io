@@ -33,7 +33,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 > | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
-> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + §1.1 and §1.2 completed; started §1.3 and stopped after defining elementary row operations <br/> <sub> Video [[OneDrive]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub>|
+> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + (From Hoffman and Kunze) §1.1 and §1.2 completed; started §1.3 and stopped after defining elementary row operations <br/> <sub> Video [[OneDrive]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub>|
 
 
 
