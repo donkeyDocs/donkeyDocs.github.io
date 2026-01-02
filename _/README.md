@@ -20,7 +20,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 * Course Outline. <sup><sub> [[pdf](../)] </sub></sup>
 * Notes
-  * Hand-written lecture notes. <sup><sub> [[folder]]() </sub></sup>
+  * Blackboard Notes (i.e. what we covered in class). <sup><sub> [[folder]]() </sub></sup>
+  * Notes (I made to teach). <sup><sub> [[folder]]() </sub></sup>
 * Recorded lectures
    * OneDrive links are listed as "recording" against each lecture below.
    * (upcoming) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
