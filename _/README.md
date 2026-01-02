@@ -22,7 +22,8 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 * Notes
   * Hand-written lecture notes. <sup><sub> [[folder]]() </sub></sup>
 * Recorded lectures
-   * YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
+   * OneDrive links are listed as "recording" against each lecture below.
+   * (upcoming) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
 
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
@@ -31,7 +32,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 > | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
-> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping <sup><sub> [[Recording]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub></sup>|
+> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + §1.1 and §1.2 completed; started §1.3 and stopped after defining elementary row operations <sup><sub> [[Recording]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub></sup>|
 
 
 <!-- \* These lectures were pre-recorded to supplement classroom lectures. -->
