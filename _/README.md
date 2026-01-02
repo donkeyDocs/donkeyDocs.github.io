@@ -23,7 +23,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
   * Blackboard Notes (what I wrote in class). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Board) </sub></sup>
   * Lecture Notes (what I made to teach). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/LectureNotes) </sub></sup>
 * Recorded lectures
-   * OneDrive links are listed as "recording" against each lecture below.
+   * OneDrive links are listed for each lecture below.
    * (scheduled) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
 
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
