@@ -18,10 +18,10 @@ Errors, comments, suggestions? Email me.
 
 The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
 
-* Course Outline. <sup><sub> [[pdf](../)] </sub></sup>
+* Course Outline. <sup><sub> [[pdf](../LinearAlgebra_WinterSpring_2026/CourseOutline.pdf)] </sub></sup>
 * Notes
-  * Blackboard Notes (i.e. what we covered in class). <sup><sub> [[folder]]() </sub></sup>
-  * Notes (I made to teach). <sup><sub> [[folder]]() </sub></sup>
+  * Blackboard Notes (what I wrote in class). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Board) </sub></sup>
+  * Lecture Notes (what I made to teach). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/LectureNotes) </sub></sup>
 * Recorded lectures
    * OneDrive links are listed as "recording" against each lecture below.
    * (upcoming) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
@@ -33,7 +33,9 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 > | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
-> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + §1.1 and §1.2 completed; started §1.3 and stopped after defining elementary row operations <sup><sub> [[Recording]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub></sup>|
+> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + §1.1 and §1.2 completed; started §1.3 and stopped after defining elementary row operations <br/> <sub> Video [[OneDrive]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub>|
+
+
 
 
 <!-- \* These lectures were pre-recorded to supplement classroom lectures. -->
