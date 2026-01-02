@@ -16,7 +16,7 @@ Errors, comments, suggestions? Email me.
 
 ### Linear Algebra (Winter/Spring 2026)
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
+This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
 
 * Course Outline. <sup><sub> [[pdf](../LinearAlgebra_WinterSpring_2026/CourseOutline.pdf)] </sub></sup>
 * Notes
