@@ -16,30 +16,37 @@ Errors, comments, suggestions? Email me.
 
 ### Linear Algebra (Winter/Spring 2026)
 
-The goal is to cover some recent results in the area of quantum cryptography, with an emphasis on results based on computational assumptions. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. 
+This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays and Fridays, 11:40 AM to 1:05 PM EST**. To join remotely, use the Teams link for the course on our  [Moodle page](https://courses.iiit.ac.in).
 
-* Course Outline. <sup><sub> [[pdf](../)] </sub></sup>
+* Course Outline. <sup><sub> [[pdf](../LinearAlgebra_WinterSpring_2026/CourseOutline.pdf)] </sub></sup>
 * Notes
-  * Hand-written lecture notes. <sup><sub> [[folder]]() </sub></sup>
+  * Blackboard Notes (what I wrote in class). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Board) </sub></sup>
+  * Lecture Notes (what I made to teach). <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/LectureNotes) </sub></sup>
 * Recorded lectures
-   * YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>
-   * OneDrive <sup><sub> [[folder]]() </sub></sup>
+   * OneDrive links are listed for each lecture below.
+   * (scheduled) YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]]() </sub></sup>   
 
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
 </summary>
 
+<!-- <img width="2219" height="1219" alt="image" src="https://github.com/user-attachments/assets/19b90478-c518-44e9-a6e6-1d5fa65ca479" /> -->
+
+
+
 > | Date | Week | Lecture     | Topics covered |  
 > |:-:|:-:|:-:|:-|  
-> | Fri, Jan 2, 2026 | 1 | 1 |  <sub>  </sub> Housekeeping |
+> | Fri, Jan 2, 2026 | 1 | 1 |  Housekeeping + From Ch 1 (Hoffman and Kunze), §1.1 Fields (axioms, examples, characteristic) and §1.2 Systems of Linear Equations (equivalence, theorem about equivalence and set of solutions); §1.3 Matrices and Elementary Row Operations—stopped after defining elementary row operations. <br/> <sub> Video [[OneDrive]](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/atul_arora_iiit_ac_in/IQCHZ2gXQ_wbSa6g9e-NjAL3AdEUWcwza4T2zeP77oOLxRQ?e=S0HEVM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) </sub> <br/> <sub> Feedback [[png]](https://github.com/user-attachments/assets/19b90478-c518-44e9-a6e6-1d5fa65ca479)|
+
+
 
 
 <!-- \* These lectures were pre-recorded to supplement classroom lectures. -->
 
 #### Assignments
 
-* All assignments are sitting in this folder. <sup><sub> [[folder]]() </sub></sup>
+* (upcoming) All assignments are sitting in this folder. <sup><sub> [[folder]]() </sub></sup> 
 
 > | Assignment |  Topic | 
 > |:-:|:-:|
@@ -51,7 +58,7 @@ The goal is to cover some recent results in the area of quantum cryptography, wi
 
 #### Exams
 
-* All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]]() </sup></sup>
+* (scheduled) All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]]() </sup></sup> 
 
 > | Exam | Topics |  
 > |:-:|:-:|
