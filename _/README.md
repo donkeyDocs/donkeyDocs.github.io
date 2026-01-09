@@ -25,7 +25,8 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 * Recorded lectures
    * OneDrive links are listed for each lecture below.
    * YouTube (usually, slightly behind OneDrive) <sup><sub> [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8Wxqu-DgD6gF1WbaoTGL8_u) </sub></sup>   
-
+* Feedback
+  * Feedback from the class in this folder. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Feedback) </sub></sup>
 <!-- * (partial) OneNote Notes. <sup><sub> [[OneNote]](https://1drv.ms/o/c/0d339dad8c88fb9a/Es4TpaVSq81Em6lx7I6kBewBSK6w1mVFVpWcD4fDBzjRsg) </sub></sup> -->
  
 
