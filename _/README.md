@@ -48,11 +48,11 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 #### Assignments
 
-* (upcoming) All assignments are sitting in this folder. <sup><sub> [[folder]]() </sub></sup> 
+* (upcoming) All assignments are sitting in this folder. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Assignments) </sub></sup> 
 
 > | Assignment |  Topic | 
 > |:-:|:-:|
-> |  |  | 
+> | Problem Set 1 | Chapter 1, until about Theorem 4 | 
 
 
 
