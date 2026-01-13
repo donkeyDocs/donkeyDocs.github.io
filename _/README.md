@@ -52,7 +52,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Assignment |  Topic | 
 > |:-:|:-:|
 > | Problem Set 1 | Chapter 1, until about Theorem 4 | 
-
+> | Problem Set 2 | Chapter 1 (the rest) |
 
 
 
