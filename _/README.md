@@ -55,6 +55,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > |:-:|:-:|
 > | Problem Set 1 | Chapter 1, until about Theorem 4 | 
 > | Problem Set 2 | Chapter 1 (the rest) |
+> | Problem Set 3 | Chapter 2 (§2.1 and 2.2) |
 
 
 
