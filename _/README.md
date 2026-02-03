@@ -48,7 +48,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Fri Jan 23, 2026  | 4 | 7' | (pre-recorded) Using the technical lemma (in the previous lecture), established Theorem 5 (if $W$ is a subspace of a finite space $V$, then any linearly independent set in $W$ is (finite and) part of a basis for $W$, proved Corollary 1 ($\dim W < \dim V$), Corollary 2 and 3 (If the rows of a square matrix $A$ form linearly independent vectors, then $A$ is invertible). <br/>  <sub> YouTube [[playlist]](https://www.youtube.com/plylist?list=PLXdfACMlsN8Wxqu-DgD6gF1WbaoTGL8_u) </sub> | 
 > | Tue, Jan 27, 2026  | 5 | displaced holiday |  | 
 > | Fri, Jan 30, 2026  | 5 | Quiz 1 |  | 
-> | Tue, Feb 3, 2026  | 6 | 8 | Quickly reviewed the statements for Theorem 5, and the 3 corollaries;  | 
+> | Tue, Feb 3, 2026  | 6 | 8 | Continued with §2.3; Quickly reviewed the statements for Theorem 5, and the 3 corollaries; Stated and proved Theorem 6 (shows how the dimensions of $W_1+W_2$ are related to those of $W_1$ and $W_2$, if $W_1$ and $W_2$ are finite-dim subspaces of $V$)), then defined linear independence for sequences; Started §2.4 Coordinates; gave a high level motivation for what coordinates mean; introduced a definition for an *ordered basis*, for *coordinate of a vector relative to the ordered basis* and showed coordinates relative to these are unique and there is a one-one correspondence, described the *coordinate matrix* and the $[\alpha]_{\mathscr{B}}$ notation, stated and proved Theorem 7 (that showed how coordinates of a fixed vector change, when going from a basis $\mathscr{B}$ to $\mathscr{B'}$; stated and proved Theorem 8 | 
 
 
 <!-- \* These lectures were pre-recorded to supplement classroom lectures. -->
