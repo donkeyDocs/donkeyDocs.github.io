@@ -62,9 +62,9 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Assignment |  Topic | 
 > |:-:|:-:|
 > | Problem Set 1 | Chapter 1, until about Theorem 4 | 
-> | Problem Set 2 | Chapter 1 (the rest) |
-> | Problem Set 3 | Chapter 2 (§2.1 and 2.2) |
-> | Problem Set 4 | Chapter 2 (until Theorem 4) | 
+> | Problem Set 2 | Chapter 1 (the rest) | 
+> | Problem Set 3 | Chapter 2 (§2.1 and 2.2) | 
+> | Problem Set 4 | Chapter 2 (until Theorem 4) |  
 
 
 
@@ -74,7 +74,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 > | Exam | Topics |  
 > |:-:|:-:|
-> | Quiz | - |
+> | Quiz | Hoffman and Kunze (2nd edition), Ch 1 (in its entirety) and Ch 2 until (and including) §2.2 Subspaces. |
 > | Midsem | - | 
 > | Endsem | - |
 
