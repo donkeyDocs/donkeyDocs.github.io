@@ -55,7 +55,12 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Fri, Feb 13, 2026 | 7 | College Fest—no classes were held |  | 
 > | Tue, Feb 17, 2026 | 8 | 11 | (Teams failed to save the recording! Happened for the first time)* <br/> Continued with **§ 3.1**, recalled the definition, stated and proved Theorem 1 (Specifying $T \alpha_i = \beta_j$ specifies the linear transformation $T$ uniquely), explained **Example 6** (given $T$ of this form, found its action on an arbitrary vector), and **Example 7** (showed how linear transformations from $F^m$ to $F^n$ can be viewed as matrices), introduced **null spaces**, proved that they are indeed spaces, stated and proved **Theorem 2** (the rank nullity theorem), **Theorem 3** (row rank(A) = column rank (A), using Theorem 2), and **Theorem 4** (the set of all linear transformations (from $V$ to $W$), form a vector space). | 
 
-* 
+
+
+\* 
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/de3256e2-653e-46fa-bfd2-0c467a7d9d66" />
+
 <!-- * ![alt text](image.png) -->
 
 <!-- \* These lectures were pre-recorded to supplement classroom lectures. -->
