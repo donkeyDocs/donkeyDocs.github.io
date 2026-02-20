@@ -54,6 +54,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Tue, Feb 10, 2026 | 7 | 10' | (pre-recorded) In class, had skipped some of the discussions in **§2.6** (i.e. the "second method" and the relation between $\beta \in W$ and its coordinates relative to the basis $\alpha_1,\alpha_2,\dots$ spanning $W$). This completes that discussion.  <br/> <sub> YouTube [[playlist]](https://www.youtube.com/playlist?list=PLXdfACMlsN8Wxqu-DgD6gF1WbaoTGL8_u) </sub> | 
 > | Fri, Feb 13, 2026 | 7 | College Fest—no classes were held |  | 
 > | Tue, Feb 17, 2026 | 8 | 11 | (Teams failed to save the recording! Happened for the first time)* <br/> Continued with **§ 3.1**, recalled the definition, stated and proved Theorem 1 (Specifying $T \alpha_i = \beta_j$ specifies the linear transformation $T$ uniquely), explained **Example 6** (given $T$ of this form, found its action on an arbitrary vector), and **Example 7** (showed how linear transformations from $F^m$ to $F^n$ can be viewed as matrices), introduced **null spaces**, proved that they are indeed spaces, stated and proved **Theorem 2** (the rank nullity theorem), **Theorem 3** (row rank(A) = column rank (A), using Theorem 2), and **Theorem 4** (the set of all linear transformations (from $V$ to $W$), form a vector space). | 
+> | Fri, Feb 20, 2026 | 8 | 12 | (Teams caused screen share issues; but had local recording as partial backup) <br/> Continued with **§3.2**, stated and proved **Theorem 5** (). | 
 
 
 
