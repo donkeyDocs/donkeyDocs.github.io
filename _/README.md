@@ -83,7 +83,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 #### Exams
 
-* (scheduled) All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]]() </sup></sup> 
+* (scheduled) All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Quizzes_Exams) </sup></sup> 
 
 > | Exam | Topics |  
 > |:-:|:-:|
