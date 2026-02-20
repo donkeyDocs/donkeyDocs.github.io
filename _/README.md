@@ -70,7 +70,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 * All assignments are on Moodle. I also intend to add them here but this may be slightly behind. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Assignments) </sub></sup> 
 
 > | Assignment |  Topic | 
-> |:-:|:-:|
+> |:-|:-|
 > | Problem Set 1 | Chapter 1, until about Theorem 4 | 
 > | Problem Set 2 | Chapter 1 (the rest) |
 > | Problem Set 3 | Chapter 2 (§2.1 and 2.2) |
