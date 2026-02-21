@@ -86,7 +86,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 * (scheduled) All exam question papers/resources are sitting in this folder. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Quizzes_Exams) </sup></sup> 
 
 > | Exam | Topics |  
-> |:-:|-:|
+> |:-:|:-|
 > | Quiz | Hoffman and Kunze (2nd edition), Ch 1 (in its entirety) and Ch 2 until (and including) §2.2 Subspaces. |
 > | Midsem | Hoffman and Kunze (2nd edition), Chapters 1 and 2 (in their entirety); topics from Chapter 3 will be announced on Tuesday, Feb 24, 2026 | 
 > | Endsem | - |
