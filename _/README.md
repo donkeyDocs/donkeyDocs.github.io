@@ -88,7 +88,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Exam | Topics |  
 > |:-:|:-|
 > | Quiz | Hoffman and Kunze (2nd edition), Ch 1 (in its entirety) and Ch 2 until (and including) §2.2 Subspaces. |
-> | Midsem | Hoffman and Kunze (2nd edition), **Chapters 1** and **2** (in their entirety); From, Chapter 3, until (and including) **§3.1 **. | 
+> | Midsem | Hoffman and Kunze (2nd edition), **Chapters 1** and **2** (in their entirety); From, **Chapter 3**, until (and including) **§3.1 Linear Transformations**. | 
 > | Endsem | - |
 
 </details>
