@@ -77,6 +77,7 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Problem Set 3 | Chapter 2 (§2.1 and 2.2) |
 > | Problem Set 4 | Chapter 2 (§2.3 until and including Theorem 4) |
 > | Problem Set 5 | Chapter 2 (after Theorem 4) + Chapter 3 (until the definition of Linear Transformations) |
+> | Problem Set 6 | Chapter 3 (prior to Isomorphisms) |
 
 
 
