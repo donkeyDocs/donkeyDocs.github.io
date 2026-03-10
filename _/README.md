@@ -74,6 +74,9 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 
 * All assignments are on Moodle. I also intend to add them here but this may be slightly behind. <sup><sub> [[folder]](../LinearAlgebra_WinterSpring_2026/Assignments) </sub></sup> 
 
+<br/>
+
+These are from Hoffman and Kunze (2nd edition)
 > | Assignment |  Topic | 
 > |:-|:-|
 > | Problem Set 1 | Chapter 1, until about Theorem 4 | 
@@ -83,6 +86,12 @@ This is an undegraduate course on Linear Algebra. We are meeting on **Tuesdays a
 > | Problem Set 5 | Chapter 2 (after Theorem 4) + Chapter 3 (until the definition of Linear Transformations) |
 > | Problem Set 6 | Chapter 3 (prior to Isomorphisms) |
 
+<br/>
+
+The following are from Sheldon Jay Axler (3rd edition)
+> | Assignment |  Topic | 
+> |:-|:-|
+> | Problem Set 7 | Chapter 5 (§5A) | 
 
 
 
