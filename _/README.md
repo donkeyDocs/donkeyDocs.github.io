@@ -91,7 +91,7 @@ These are from Hoffman and Kunze (2nd edition)
 > | Problem Set 3 | Chapter 2 (§2.1 and 2.2) |
 > | Problem Set 4 | Chapter 2 (§2.3 until and including Theorem 4) |
 > | Problem Set 5 | Chapter 2 (after Theorem 4) + Chapter 3 (until the definition of Linear Transformations) |
-> | Problem Set 6 | Chapter 3 (prior to Isomorphisms) |
+> | Problem Set 6 | Chapter 3 (prior to Isomorphisms) | 
 
 The ones below are from Axler (3rd edition)
 > | Assignment | Topic | 
