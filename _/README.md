@@ -98,6 +98,8 @@ The ones below are from Axler (3rd edition)
 > | Assignment | Topic | 
 > |:-|:-|
 > | Problem Set 7 | Chapter 5 (§A + §B (until Theorem 5.27)) | 
+> | Problem Set 8 | Chapter 5, §B Theorem 5.27 onwards (but excluding) | 
+> | Problem Set 9 | (only 3 graded questions) Chapter 5, §C | 
 
 
 
@@ -110,7 +112,7 @@ The ones below are from Axler (3rd edition)
 > |:-:|:-|
 > | Quiz 1 | Hoffman and Kunze (2nd edition), Ch 1 (in its entirety) and Ch 2 until (and including) §2.2 Subspaces. |
 > | Midsem | Hoffman and Kunze (2nd edition), **Chapters 1** and **2** (in their entirety); From, **Chapter 3**, until (and including) **§3.1 Linear Transformations**. | 
-> | Quiz 2 | - |
+> | Quiz 2 | The primary focus would be <br/>**Sections 3.2** to **3.4** from Hoffman Kunze (2nd edition) and <br/> **Chapter 5** (excluding quotient operators) from Sheldon Axler (3rd edition). |
 > | Endsem | - |
 
 </details>
