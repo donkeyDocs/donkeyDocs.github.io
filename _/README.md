@@ -100,8 +100,7 @@ The ones below are from Axler (3rd edition)
 > | Problem Set 7 | Chapter 5 (§A + §B (until Theorem 5.27)) | 
 > | Problem Set 8 | Chapter 5, §B Theorem 5.27 onwards (but excluding) | 
 > | Problem Set 9 | (only 3 graded questions) Chapter 5, §C | 
-
-<!-- > | Problem Set 9 | (only 3 graded questions) Chapter 5, §C |  -->
+> | Problem Set 10 | (only 3 graded questions) Chapter 5, §C | 
 
 
 
