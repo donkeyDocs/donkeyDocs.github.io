@@ -127,6 +127,11 @@ End
 \filename_suffix 0
 \color #ffffff #1e1e1e
 \end_branch
+\branch proof
+\selected 1
+\filename_suffix 0
+\color background background
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -424,9 +429,9 @@ th row of
 \begin_inset Formula 
 \[
 A=\left[\begin{array}{ccc}
-\cdots & v_{1} & \cdots\\
+\text{---} & v_{1} & \text{---}\\
  & \vdots\\
-\cdots & v_{n} & \cdots
+\text{---} & v_{n} & \text{---}
 \end{array}\right].
 \]
 
@@ -444,7 +449,7 @@ Define the notation
 We require that 
 \begin_inset Formula 
 \[
-\det(v_{1},\dots,v_{k-1},\quad c_{1}v_{k}+c_{2}u_{k},\quad v_{k+1},\dots v_{n})
+\det(v_{1},\dots,v_{k-1},\quad\underbrace{c_{1}v_{k}+c_{2}u_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n})
 \]
 
 \end_inset
@@ -460,8 +465,8 @@ We require that
 
 \begin_inset Formula 
 \begin{align*}
-c_{1}\det(v_{1},\dots v_{k-1},\quad v_{k},\quad v_{k+1},\dots v_{n}) & \quad+\\
-c_{2}\det(v_{1},\dots v_{k-1},\quad u_{k},\quad v_{k+1},\dots v_{n}) & .
+c_{1}\det(v_{1},\dots v_{k-1},\quad\underbrace{v_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n}) & \quad+\\
+c_{2}\det(v_{1},\dots v_{k-1},\quad\underbrace{u_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n}) & .
 \end{align*}
 
 \end_inset
@@ -809,9 +814,103 @@ tuple "list"
 
 \begin_deeper
 \begin_layout Enumerate
-If any 
+If any two rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are equal,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status open
+
+\begin_layout Proof
+Write 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{n} & \text{---}
+\end{array}\right]
+\]
+
+\end_inset
+
+and proceed as follows.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+If any two rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are equal,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $v_{j}=v_{k}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\ \ \det(v_{1},\dots,\underbrace{v_{j}}_{j\text{th row}},\dots,\underbrace{v_{k}}_{k\text{th row}},\dots v_{n})\\
+ & =-\det(v_{1},\dots,\underbrace{v_{k}}_{j\text{th row}},\dots,\underbrace{v_{j}}_{k\text{th row}},\dots v_{n}) & \text{By axiom 2}\\
+ & =-\det(A) & \because\text{ }v_{j}=v_{k}
+\end{align*}
+
+\end_inset
+
+and that in turn shows 
+\begin_inset Formula $\det(A)=0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+aeou
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

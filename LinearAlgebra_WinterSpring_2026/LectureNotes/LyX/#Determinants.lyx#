@@ -125,7 +125,12 @@ End
 \branch commentary
 \selected 1
 \filename_suffix 0
-\color background #6e6e6e
+\color #ffffff #1e1e1e
+\end_branch
+\branch proof
+\selected 1
+\filename_suffix 0
+\color background background
 \end_branch
 \index Index
 \shortcut idx
@@ -166,6 +171,16 @@ Determinants
 
 \begin_layout Author
 Essentially a transcription of Gowtham Kurri's note on the topic
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+I only made a few minor narrative/editorial changes.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -746,9 +761,116 @@ status open
 
 \begin_layout Standard
 Before we show that these three axioms uniquely specify the determinant function,
- we 
+ we derive some interesting properties,
+ assuming them (the three axioms).
+ 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Lemma
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Let 
+\begin_inset Formula $\det:\F^{n\times n}\to\F$
+\end_inset
+
+ be as in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+,
+ satisfying the three axioms listed there.
+ Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+ be any .
+ Then,
+ 
+\begin_inset Formula $\det$
+\end_inset
+
+ also satisfies the following properties.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If any two rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are equal,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+aeou
+\end_layout
+
+\end_deeper
+\begin_layout Lemma
+\begin_inset Branch proof
+inverted 0
+status open
+
+\begin_layout Proof
+Write 
+\begin_inset Formula 
+\[
+A=\begin{array}{ccc}
+ & v_{1}\\
+ & \vdots\\
+ & v_{n}
+\end{array}
+\]
+
+\end_inset
+
+Proceed as follows.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If any two rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are equal,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let 
+\end_layout
+
+\end_deeper
 \end_inset
 
 
