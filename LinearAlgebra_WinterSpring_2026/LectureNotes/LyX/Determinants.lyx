@@ -518,69 +518,129 @@ tuple "list"
 
 \end_inset
 
+,
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+let us check that the three properties are satisfied 
+\end_layout
+
+\begin_layout Itemize
+by our formula for the 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ case.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Normalisation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\left|\begin{array}{cc}
+1\\
+ & 1
+\end{array}\right|=1$
+\end_inset
+
+ (set 
+\begin_inset Formula $b=c=0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $ad$
+\end_inset
+
+ survives)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|=1$
+\end_inset
+
+ (set 
+\begin_inset Formula $b=c=d=f=g=h=0$
+\end_inset
+
+;
+ only the 
+\begin_inset Formula $aei$
+\end_inset
+
+ term survives)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Antisymmetry:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Clearly,
+ 
+\begin_inset Formula $\begin{vmatrix}1\\
+ & 1
+\end{vmatrix}=1$
+\end_inset
+
+ but 
+\begin_inset Formula $\begin{vmatrix} & 1\\
+1
+\end{vmatrix}=-1$
+\end_inset
+
+ (only 
+\begin_inset Formula $-bc$
+\end_inset
+
+ survives).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|=1$
+\end_inset
+
+ but 
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ &  & 1\\
+1
+\end{array}\right|=1\cdot(-1)=-1$
+\end_inset
+
 .
 \end_layout
 
-\begin_layout Itemize
-Here,
- we take a different approach.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-We start by listing three desirable properties that we want
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-a function 
-\begin_inset Formula $\det:\F^{n\times n}\to\F$
-\end_inset
-
- to satisfy where 
-\begin_inset Formula $\F$
-\end_inset
-
- is the field of real numbers or that of complex numbers.
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
-We postulate these as axioms and say that
+Linearity in each row:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-any function satisfying these axioms,
- will be called a 
-\begin_inset Quotes eld
-\end_inset
 
-determinant
-\begin_inset Quotes erd
-\end_inset
-
-.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Later,
- we argue that such a function is 
-\emph on
-unique
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-leading us to the well-defined formula for 
-\emph on
-the 
-\emph default
-determinant.
-\end_layout
-
-\end_deeper
 \end_deeper
 \end_inset
 

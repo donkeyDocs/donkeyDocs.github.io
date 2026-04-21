@@ -541,7 +541,7 @@ by our formula for the
 
 \end_deeper
 \begin_layout Itemize
-Normalisation:
+Antisymmetry:
  
 \end_layout
 
@@ -549,10 +549,29 @@ Normalisation:
 \begin_layout Itemize
 Clearly,
  
-\begin_inset Formula $\begin{vmatrix}\\\\\\\end{vmatrix}$
+\begin_inset Formula $\begin{vmatrix}1 & 0\\
+0 & 1
+\end{vmatrix}=1$
 \end_inset
 
+ but 
+\begin_inset Formula $\begin{vmatrix}0 & 1\\
+1 & 0
+\end{vmatrix}=-1$
+\end_inset
 
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|=1$
+\end_inset
+
+ but 
 \end_layout
 
 \end_deeper
