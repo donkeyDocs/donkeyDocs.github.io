@@ -852,6 +852,23 @@ If the rows of
 
 \end_layout
 
+\begin_layout Enumerate
+Adding or subtracting a multiple of one row from another,
+ leaves the determine unchanged.
+\begin_inset Newline newline
+\end_inset
+
+More generally,
+ the determinant stays invariant,
+ if one adds to a row,
+ a linear combination of other rows (note,
+ the remaining rows are left unchanged).
+\end_layout
+
+\begin_layout Enumerate
+The determinant of a diagonal matrix or a triangular matrix is equal to the product of the diagonal entries.
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Branch proof
@@ -978,6 +995,158 @@ Without loss of generality,
 \end_inset
 
 .
+ One can therefore write 
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\det(v_{1},v_{2},\dots v_{n})\\
+ & =\det\left(\sum^{n}_{i=2}c_{i}v_{i},v_{2},\dots v_{n}\right)\\
+ & =\sum^{n}_{i=2}c_{i}\cdot\det(v_{i},v_{2},\dots v_{n}) & \text{By Axiom 3}\\
+ & =\sum^{n}_{i=2}c_{i}\cdot0 & \text{From Property 1}\\
+ & =0.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Adding or subtracting a multiple of one row from another,
+ leaves the determine unchanged.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The determinant of 
+\begin_inset Formula $A$
+\end_inset
+
+ can be written as
+\begin_inset Formula 
+\[
+\det(A)=\det(v_{1},\dots,v_{j},\dots v_{n}).
+\]
+
+\end_inset
+
+Consider the determinant of 
+\begin_inset Formula $A'$
+\end_inset
+
+ which is the same as 
+\begin_inset Formula $A$
+\end_inset
+
+ except the 
+\begin_inset Formula $j$
+\end_inset
+
+th row is replaced by 
+\begin_inset Formula $v_{j}+cv_{k}$
+\end_inset
+
+,
+ i.e.
+\begin_inset Formula 
+\begin{align*}
+\det(A') & =\det(v_{1},\dots,\underbrace{v_{j}+cv_{k}}_{j\text{th row}},\dots v_{n})\\
+ & =\det(v_{1},\dots,\underbrace{v_{j}}_{j\text{th row}},\dots v_{n})+\\
+ & \quad c\det(v_{1},\dots,\underbrace{v_{k}}_{j\text{th row}},\dots v_{n}) & \text{this term is zero from Property 1}\\
+ & =\det(A).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+More generally,
+ the determinant stays invariant,
+ if one adds to a row,
+ a linear combination of other rows (note,
+ the remaining rows are left unchanged).
+\end_layout
+
+\begin_layout Standard
+Proceeding similarly,
+ one has 
+\begin_inset Formula 
+\begin{align*}
+\left|\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{k}+\sum_{i\neq j}c_{i}v_{i} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{n} & \text{---}
+\end{array}\right| & =\det\left(v_{1},\dots,\underbrace{v_{j}+\sum_{i\neq j}c_{i}v_{i}}_{j\text{th row}},\dots v_{n}\right)\\
+ & =\det\left(v_{1},\dots,\underbrace{v_{j}}_{j\text{th row}},\dots v_{n}\right)+\\
+ & \quad\sum_{i\neq j}c_{i}\det\left(v_{1},\dots,\underbrace{v_{i}}_{j\text{th row}},\dots v_{n}\right) & \text{these are zero from Property 1}\\
+ & =\left|\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{k} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{n} & \text{---}
+\end{array}\right|\\
+ & =\det(A).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+We split this into two parts
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+The determinant of a diagonal matrix is equal to the product of the diagonal entries.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left|\begin{array}{cccc}
+a_{11}\\
+ & a_{22}\\
+ &  & \ddots\\
+ &  &  & a_{nn}
+\end{array}\right| & =a_{11}\left|\begin{array}{cccc}
+1\\
+ & a_{22}\\
+ &  & \ddots\\
+ &  &  & a_{nn}
+\end{array}\right| & \text{Axiom 3}\\
+ & =a_{11}a_{22}\left|\begin{array}{cccc}
+1\\
+ & 1\\
+ &  & \ddots\\
+ &  &  & a_{nn}
+\end{array}\right|
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The determinant of a triangular matrix is equal to the product of the diagonal entries.
 \end_layout
 
 \end_deeper
