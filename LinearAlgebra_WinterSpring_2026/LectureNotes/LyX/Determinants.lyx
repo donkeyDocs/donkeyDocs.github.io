@@ -1103,6 +1103,90 @@ Proceeding similarly,
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+
+\emph on
+We split this into two parts
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+The determinant of a diagonal matrix is equal to the product of the diagonal entries.
+\end_layout
+
+\begin_layout Standard
+We have
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left|\begin{array}{cccc}
+a_{11}\\
+ & a_{22}\\
+ &  & \ddots\\
+ &  &  & a_{nn}
+\end{array}\right| & =a_{11}\left|\begin{array}{cccc}
+1\\
+ & a_{22}\\
+ &  & \ddots\\
+ &  &  & a_{nn}
+\end{array}\right| & \text{Axiom 3}\\
+ & =a_{11}a_{22}\left|\begin{array}{ccccc}
+1\\
+ & 1\\
+ &  & a_{33}\\
+ &  &  & \ddots\\
+ &  &  &  & a_{nn}
+\end{array}\right|\\
+ & =a_{11}a_{22}\dots a_{nn}\left|\begin{array}{cccc}
+1\\
+ & 1\\
+ &  & \ddots\\
+ &  &  & 1
+\end{array}\right|\\
+ & =a_{11}a_{22}\dots a_{nn} & \text{Axiom 1.}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The determinant of a triangular matrix is equal to the product of the diagonal entries.
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $A$
+\end_inset
+
+ is upper triangular,
+ i.e.
+ 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1n}\\
+0 & a_{22} & \cdots & a_{2n}\\
+\vdots &  & \ddots & \vdots\\
+0 & \cdots & 0 & a_{nn}
+\end{array}\right].
+\]
+
+\end_inset
+
+As we saw in Hoffmann and Kunz,
+ using elementary row operations,
+ one can 
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_inset
 
