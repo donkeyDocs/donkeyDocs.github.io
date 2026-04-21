@@ -210,7 +210,7 @@ I only made a few minor narrative/editorial changes.
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Itemize
 Usually determinant is thought of as a quantity
@@ -479,7 +479,7 @@ c_{2}\det(v_{1},\dots v_{k-1},\quad\underbrace{u_{k}}_{k\text{th row}},\quad v_{
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Itemize
 Let us quickly recall the formulae for the determinant
@@ -1331,7 +1331,7 @@ tuple "list"
 \end_layout
 
 \begin_layout Example
-We show that 
+Show that 
 \begin_inset Formula $\left|\begin{array}{cc}
 a & b\\
 c & d
@@ -1355,9 +1355,71 @@ tuple "list"
  
 \end_layout
 
-\begin_layout Example
+\begin_layout Solution*
 We have 
-\begin_inset Formula $ $
+\begin_inset Formula 
+\begin{align*}
+\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right| & =\left|\begin{array}{cc}
+a & 0\\
+c & d
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+c & d
+\end{array}\right| & \text{Using Axiom 3 on row 1}\\
+ & =\underbrace{\left|\begin{array}{cc}
+a & 0\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|}_{\text{\text{Using Axiom 3 on row 2}}}+\left|\begin{array}{cc}
+0 & b\\
+c & d
+\end{array}\right|\\
+ & =\left|\begin{array}{cc}
+a & 0\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|+\underbrace{\left|\begin{array}{cc}
+0 & b\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+0 & d
+\end{array}\right|}_{\text{Using Axiom 3 on row 2}}\\
+ & =\underbrace{\left|\begin{array}{cc}
+a & 0\\
+0 & 0
+\end{array}\right|}_{\text{subtracting \ensuremath{ca^{-1}} row 1 from row 2}}+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right| & \text{Using Property 4}\\
+ & +\left|\begin{array}{cc}
+0 & b\\
+c & 0
+\end{array}\right|+\underbrace{\left|\begin{array}{cc}
+0 & b\\
+0 & 0
+\end{array}\right|}_{\text{subtracting \ensuremath{db^{-1}} row 1 from row 2}}\\
+ & =\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+c & 0
+\end{array}\right| & \text{Using Property 2}\\
+ & =ad-\left|\begin{array}{cc}
+b & 0\\
+0 & c
+\end{array}\right| & \text{Using Property 5 and Axiom 2}\\
+ & =ad-bc.
+\end{align*}
+
 \end_inset
 
 

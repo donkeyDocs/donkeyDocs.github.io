@@ -1358,15 +1358,54 @@ tuple "list"
 \begin_layout Solution*
 We have 
 \begin_inset Formula 
-\[
+\begin{align*}
 \left|\begin{array}{cc}
 a & b\\
 c & d
-\end{array}\right|=\left|\begin{array}{cc}
+\end{array}\right| & =\left|\begin{array}{cc}
 a & 0\\
 c & d
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+c & d
+\end{array}\right| & \text{Using Axiom 3 on row 1}\\
+ & =\underbrace{\left|\begin{array}{cc}
+a & 0\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|}_{\text{\text{Using Axiom 3 on row 2}}}+\left|\begin{array}{cc}
+0 & b\\
+c & d
+\end{array}\right|\\
+ & =\left|\begin{array}{cc}
+a & 0\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|+\underbrace{\left|\begin{array}{cc}
+0 & b\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+0 & d
+\end{array}\right|}_{\text{Using Axiom 3 on row 2}}\\
+ & =\underbrace{\left|\begin{array}{cc}
+a & 0\\
+0 & 0
+\end{array}\right|}_{}+\left|\begin{array}{cc}
+a & 0\\
+0 & d
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+c & 0
+\end{array}\right|+\left|\begin{array}{cc}
+0 & b\\
+0 & 0
 \end{array}\right|
-\]
+\end{align*}
 
 \end_inset
 
