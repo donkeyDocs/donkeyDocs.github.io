@@ -1176,14 +1176,73 @@ a_{11} & a_{12} & \cdots & a_{1n}\\
 0 & a_{22} & \cdots & a_{2n}\\
 \vdots &  & \ddots & \vdots\\
 0 & \cdots & 0 & a_{nn}
-\end{array}\right].
+\end{array}\right]
 \]
 
 \end_inset
 
-As we saw in Hoffmann and Kunz,
- using elementary row operations,
- one can 
+and that 
+\begin_inset Formula $a_{ii}>0$
+\end_inset
+
+ for all 
+\begin_inset Formula $i\in\{1,\dots n\}$
+\end_inset
+
+.
+ One can turn 
+\begin_inset Formula $A$
+\end_inset
+
+ into a diagonal matrix,
+ with diagonal entries 
+\begin_inset Formula $(a_{11},a_{22},\dots a_{nn})$
+\end_inset
+
+ by taking linear combinations of its rows.
+ For instance,
+ to make 
+\begin_inset Formula $a_{12}$
+\end_inset
+
+ zero,
+ one can subtract from the first row 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $a_{12}\cdot a^{-1}_{22}$
+\end_inset
+
+ times the second row 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula 
+\[
+A'=\left[\begin{array}{cccc}
+a_{11} & 0 & \cdots & 0\\
+0 & a_{22} & \cdots & 0\\
+\vdots &  & \ddots & \vdots\\
+0 & \cdots & 0 & a_{nn}
+\end{array}\right]
+\]
+
+\end_inset
+
+and note that 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det A' & \text{using Property 4}\\
+ & =a_{11}a_{22}\dots a_{nn} & \text{using Property 5(a) above}.
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
