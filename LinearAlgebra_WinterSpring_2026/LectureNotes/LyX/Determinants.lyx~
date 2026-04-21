@@ -108,7 +108,7 @@ End
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification default
 \crossref_package cleveref
 \use_formatted_ref 0
@@ -170,7 +170,7 @@ Determinants
 \end_layout
 
 \begin_layout Author
-Essentially a transcription of Gowtham Kurri's note on the topic
+Essentially a transcription of Gowtham Kurri's note (based on Gilbert Strang's lectures) on the topic
 \begin_inset Foot
 status open
 
@@ -1331,6 +1331,12 @@ tuple "list"
 \end_layout
 
 \begin_layout Example
+\begin_inset CommandInset label
+LatexCommand label
+name "exa:2times2"
+
+\end_inset
+
 Show that 
 \begin_inset Formula $\left|\begin{array}{cc}
 a & b\\
@@ -1523,14 +1529,19 @@ Let us work out the
 
 \begin_layout Example
 Show that 
-\begin_inset Formula $\left|\begin{array}{cc}
-a & b\\
-c & d
-\end{array}\right|=ad-bc$
+\begin_inset Formula 
+\begin{align*}
+\left|\begin{array}{ccc}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right| & =a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)\\
+ & \ +a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right),
+\end{align*}
+
 \end_inset
 
-,
- starting from 
+starting from 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "def:AxiomsForDeterminant"
@@ -1544,6 +1555,50 @@ tuple "list"
 
 .
  
+\end_layout
+
+\begin_layout Solution*
+Our strategy would again be to decompose,
+ in terms of linear combinations of rows,
+ one row at a time,
+ as we did in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "exa:2times2"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ We have 
+\begin_inset Formula 
+\[
+\left|\begin{array}{ccc}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|=\left|\begin{array}{ccc}
+a_{11} & 0 & 0\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|+\left|\begin{array}{ccc}
+0 & a_{12} & 0\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|+\left|\begin{array}{ccc}
+0 & 0 & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
