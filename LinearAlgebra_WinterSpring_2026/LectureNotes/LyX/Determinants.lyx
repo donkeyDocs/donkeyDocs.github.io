@@ -6,8 +6,12 @@
 \origin unavailable
 \textclass article
 \use_default_options true
+\begin_modules
+theorems-ams
+theorems-ams-extended
+\end_modules
 \maintain_unincluded_children no
-\language american
+\language british
 \language_package default
 \inputencoding utf8
 \fontencoding auto
@@ -33,6 +37,7 @@
 \float_placement class
 \float_alignment class
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -48,6 +53,7 @@
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -75,7 +81,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style british
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -112,6 +118,22 @@ Essentially a transcription of Gowtham Kurri's note on the topic
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\C}{\mathbb{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\R}{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Story:
 \end_layout
 
@@ -136,20 +158,159 @@ Here,
 
 \begin_deeper
 \begin_layout Itemize
-We start by listing three desirable properties that we want a function 
-\begin_inset Formula $\det:\F^{n\times n}\to\F$
-\end_inset
-
- to satisfy
+We start by listing three desirable properties that we want 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-where 
-\begin_inset Formula $\F\in\{\C,\R\}$
+a function 
+\begin_inset Formula $\det:\F^{n\times n}\to\F$
+\end_inset
+
+ to satisfy where 
+\begin_inset Formula $\F$
+\end_inset
+
+ is the field of real numbers or that of complex numbers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We postulate these as axioms and say that 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+any function satisfying these axioms,
+ will be called a 
+\begin_inset Quotes eld
+\end_inset
+
+determinant
+\begin_inset Quotes erd
 \end_inset
 
 .
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Later,
+ we argue that such a function is 
+\emph on
+unique
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+leading us to the well-defined formula for 
+\emph on
+the 
+\emph default
+determinant.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Axioms for a Determinant
+\end_layout
+
+\end_inset
+
+ Consider any function 
+\begin_inset Formula $\det:\F^{n\times n}\to\F$
+\end_inset
+
+ (that we sometimes also denote by 
+\begin_inset Formula $\left|\cdot\right|$
+\end_inset
+
+ where 
+\begin_inset Formula $\F\in\{\R,\C\}$
+\end_inset
+
+ (real or complex).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+We say that 
+\begin_inset Formula $\det$
+\end_inset
+
+ is a 
+\emph on
+determinant
+\emph default
+ if it satisfies the following properties:
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Normalisation.
+
+\emph default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+We require that 
+\begin_inset Formula $\det I=1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Anti-symmetry.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let 
+\begin_inset Formula $A\in\F^{(n\times n)}$
+\end_inset
+
+ and 
+\begin_inset Formula $A'$
+\end_inset
+
+ be the same as 
+\begin_inset Formula $A$
+\end_inset
+
+ except two of its rows have been exchanged.
+ 
+\end_layout
+
+\begin_layout Standard
+We require that 
+\begin_inset Formula $\det(A)=\det(A')$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Linearity in each row.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
 \end_layout
 
 \end_deeper
