@@ -108,7 +108,7 @@ The ones below are from Axler (3rd edition)
 > | Problem Set 8 | Chapter 5, §B Theorem 5.27 onwards (but excluding) | 
 > | Problem Set 9 | (only 3 graded questions) Chapter 5, §C | 
 > | Problem Set 10 | (only 3 graded questions) Chapter 6 (a few practice problems from Chapter 7 as well) | 
-> | Problem Set 11 | (5 graded questions) Chapter 7 (plus potentially some questions from determinants/trace/SVD) | 
+> | Problem Set 11 | (5 graded questions) Chapter 7 (plus potentially some practice problems from determinants/trace/SVD) | 
 
 
 
