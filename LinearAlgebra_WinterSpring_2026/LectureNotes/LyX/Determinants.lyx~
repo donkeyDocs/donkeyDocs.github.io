@@ -5,12 +5,63 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+	citecolor=blue,
+    }
+
+\hypersetup{hidelinks,
+backref=true,
+pagebackref=true,
+hyperindex=true,
+breaklinks=true,
+colorlinks=true,%linkcolor=black,
+urlcolor=blue,
+bookmarks=true,
+bookmarksopen=false}
+
+
+\usepackage{color,xcolor,graphicx}
+\definecolor{purple}{RGB}{0,0,0} %{120,20,120}
+\newcommand\branchcolor[2]{{\color{#1} #2}}
+\newcommand\branchpurple[1]{{\color{purple} #1}}
+
+
+
+\usepackage{lineno}
+\linenumbers
+\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
 theorems-ams-extended
 \end_modules
 \maintain_unincluded_children no
+\begin_local_layout
+Format 111
+InsetLayout Branch:commentary
+  Font
+    Color gray
+  EndFont
+  LatexName branchcolor{gray}
+  LatexType command
+  Requires color
+End
+InsetLayout Branch:proof
+  Font
+    Color blue
+  EndFont
+  LatexName branchcolor{blue}
+  LatexType command
+  Requires color
+End
+\end_local_layout
 \language british
 \language_package default
 \inputencoding utf8
@@ -71,6 +122,11 @@ theorems-ams-extended
 \table_odd_row_color default
 \table_even_row_color default
 \table_alt_row_colors_start 1
+\branch commentary
+\selected 1
+\filename_suffix 0
+\color background #6e6e6e
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -134,8 +190,9 @@ Essentially a transcription of Gowtham Kurri's note on the topic
 \end_layout
 
 \begin_layout Standard
-Story:
-\end_layout
+\begin_inset Branch commentary
+inverted 0
+status open
 
 \begin_layout Itemize
 Usually determinant is thought of as a quantity
@@ -212,6 +269,11 @@ determinant.
 
 \end_deeper
 \end_deeper
+\end_inset
+
+
+\end_layout
+
 \begin_layout Definition
 \begin_inset Argument 1
 status open
@@ -305,15 +367,190 @@ We require that
 
 \end_deeper
 \begin_layout Enumerate
+
+\emph on
 Linearity in each row.
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
+Determinant is linear in each row separately.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+ and denote by 
+\begin_inset Formula $v_{j}$
+\end_inset
+
+ the 
+\begin_inset Formula $j$
+\end_inset
+
+th row of 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ i.e.
+ 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+\cdots & v_{1} & \cdots\\
+ & \vdots\\
+\cdots & v_{n} & \cdots
+\end{array}\right].
+\]
+
+\end_inset
+
+Define the notation 
+\begin_inset Formula $\det(v_{1},v_{2},\dots v_{n}):=\det(A)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+We require that 
+\begin_inset Formula 
+\[
+\det(v_{1},\dots,v_{k-1},\quad c_{1}v_{k}+c_{2}u_{k},\quad v_{k+1},\dots v_{n})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+c_{1}\det(v_{1},\dots v_{k-1},\quad v_{k},\quad v_{k+1},\dots v_{n}) & \quad+\\
+c_{2}\det(v_{1},\dots v_{k-1},\quad u_{k},\quad v_{k+1},\dots v_{n}) & .
+\end{align*}
+
+\end_inset
+
 
 \end_layout
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Itemize
+Let us quickly recall the formulae for the determinant
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+that we learnt in high-school,
+ for 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ determinants.
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=ad-bc,\quad\left|\begin{array}{ccc}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{array}\right|=aei-afh+bfg-bdi+cdh-ceg.
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Here,
+ we take a different approach.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We start by listing three desirable properties that we want
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+a function 
+\begin_inset Formula $\det:\F^{n\times n}\to\F$
+\end_inset
+
+ to satisfy where 
+\begin_inset Formula $\F$
+\end_inset
+
+ is the field of real numbers or that of complex numbers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We postulate these as axioms and say that
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+any function satisfying these axioms,
+ will be called a 
+\begin_inset Quotes eld
+\end_inset
+
+determinant
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Later,
+ we argue that such a function is 
+\emph on
+unique
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+leading us to the well-defined formula for 
+\emph on
+the 
+\emph default
+determinant.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
