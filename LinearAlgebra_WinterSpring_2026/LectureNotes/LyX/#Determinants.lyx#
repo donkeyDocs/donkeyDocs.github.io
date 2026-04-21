@@ -210,7 +210,7 @@ I only made a few minor narrative/editorial changes.
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Itemize
 Usually determinant is thought of as a quantity
@@ -479,7 +479,7 @@ c_{2}\det(v_{1},\dots v_{k-1},\quad\underbrace{u_{k}}_{k\text{th row}},\quad v_{
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Itemize
 Let us quickly recall the formulae for the determinant
@@ -873,7 +873,7 @@ The determinant of a diagonal matrix or a triangular matrix is equal to the prod
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status open
+status collapsed
 
 \begin_layout Proof
 Write 
@@ -1116,6 +1116,11 @@ We split this into two parts
 The determinant of a diagonal matrix is equal to the product of the diagonal entries.
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+We have
+\end_layout
+
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
@@ -1130,12 +1135,20 @@ a_{11}\\
  &  & \ddots\\
  &  &  & a_{nn}
 \end{array}\right| & \text{Axiom 3}\\
- & =a_{11}a_{22}\left|\begin{array}{cccc}
+ & =a_{11}a_{22}\left|\begin{array}{ccccc}
+1\\
+ & 1\\
+ &  & a_{33}\\
+ &  &  & \ddots\\
+ &  &  &  & a_{nn}
+\end{array}\right|\\
+ & =a_{11}a_{22}\dots a_{nn}\left|\begin{array}{cccc}
 1\\
  & 1\\
  &  & \ddots\\
- &  &  & a_{nn}
-\end{array}\right|
+ &  &  & 1
+\end{array}\right|\\
+ & =a_{11}a_{22}\dots a_{nn} & \text{Axiom 1.}
 \end{align*}
 
 \end_inset
@@ -1143,14 +1156,218 @@ a_{11}\\
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 
 \emph on
 The determinant of a triangular matrix is equal to the product of the diagonal entries.
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $A$
+\end_inset
+
+ is upper triangular,
+ i.e.
+ 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1n}\\
+0 & a_{22} & \cdots & a_{2n}\\
+\vdots &  & \ddots & \vdots\\
+0 & \cdots & 0 & a_{nn}
+\end{array}\right]
+\]
+
+\end_inset
+
+and that 
+\begin_inset Formula $a_{ii}>0$
+\end_inset
+
+ for all 
+\begin_inset Formula $i\in\{1,\dots n\}$
+\end_inset
+
+.
+ One can turn 
+\begin_inset Formula $A$
+\end_inset
+
+ into a diagonal matrix,
+ with diagonal entries 
+\begin_inset Formula $(a_{11},a_{22},\dots a_{nn})$
+\end_inset
+
+ by taking linear combinations of its rows.
+ For instance,
+ to make 
+\begin_inset Formula $a_{12}$
+\end_inset
+
+ zero,
+ one can subtract from the first row 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $a_{12}\cdot a^{-1}_{22}$
+\end_inset
+
+ times the second row 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula 
+\[
+A'=\left[\begin{array}{cccc}
+a_{11} & 0 & \cdots & 0\\
+0 & a_{22} & \cdots & 0\\
+\vdots &  & \ddots & \vdots\\
+0 & \cdots & 0 & a_{nn}
+\end{array}\right]
+\]
+
+\end_inset
+
+and note that 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det A' & \text{using Property 4}\\
+ & =a_{11}a_{22}\dots a_{nn} & \text{using Property 5(a) above}.
+\end{align*}
+
+\end_inset
+
+Suppose 
+\begin_inset Formula $A$
+\end_inset
+
+ is such that 
+\begin_inset Formula $a_{ii}=0$
+\end_inset
+
+ for some 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ It is not hard to see that one can obtain,
+ by a linear combination of rows,
+ a matrix that 
+\begin_inset Formula $A'$
+\end_inset
+
+ such that one of its rows is zero.
+ In this case,
+ 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det A' & \text{Property 4}\\
+ & =0 & \text{Property 2}\\
+ & =a_{11}a_{22}\cdots a_{nn} & \because\ a_{ii}=0.
+\end{align*}
+
+\end_inset
+
+When 
+\begin_inset Formula $A$
+\end_inset
+
+ is lower triangular,
+ one can proceed analogously.
+ 
+\end_layout
+
 \end_deeper
 \end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+We now turn our attention to the task of deriving an explicit formula for the determinant,
+ starting from the three axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ We look at the 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ cases first,
+ and then derive the formula for the general case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+Show that 
+\begin_inset Formula $\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=ad-bc$
+\end_inset
+
+,
+ starting from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Solution*
+We have 
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=\left|\begin{array}{cc}
+a & 0\\
+c & d
+\end{array}\right|
+\]
+
 \end_inset
 
 
