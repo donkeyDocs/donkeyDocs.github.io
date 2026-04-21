@@ -170,9 +170,17 @@ Determinants
 \end_layout
 
 \begin_layout Author
-Essentially a transcription of Gowtham Kurri's note (based on Gilbert Strang's lectures) on the topic
+Essentially a transcription of 
+\begin_inset Newline newline
+\end_inset
+
+Gowtham Kurri's note (based on Gilbert Strang's lectures) 
+\begin_inset Newline newline
+\end_inset
+
+on the same topic
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 I only made a few minor narrative/editorial changes.
@@ -1598,7 +1606,80 @@ a_{31} & a_{32} & a_{33}
 
 \end_inset
 
+where each term is further decomposed into 9 more terms (3 for each of the remaining rows).
+ Writing out the relevant terms in this expansion,
+ one can continue as follows 
+\begin_inset Formula 
+\begin{align*}
+ & =\left|\begin{array}{ccc}
+a_{11} & 0 & 0\\
+0 & a_{22} & 0\\
+0 & 0 & a_{33}
+\end{array}\right|+\left|\begin{array}{ccc}
+a_{11} & 0 & 0\\
+0 & 0 & a_{23}\\
+0 & a_{32} & 0
+\end{array}\right|+\left|\begin{array}{ccc}
+0 & a_{12} & 0\\
+a_{21} & 0 & 0\\
+0 & 0 & a_{33}
+\end{array}\right|\\
+ & \ \ \left|\begin{array}{ccc}
+0 & a_{12} & 0\\
+0 & 0 & a_{23}\\
+a_{31} & 0 & 0
+\end{array}\right|+\left|\begin{array}{ccc}
+0 & 0 & a_{13}\\
+a_{21} & 0 & 0\\
+0 & a_{32} & 0
+\end{array}\right|+\left|\begin{array}{ccc}
+0 & 0 & a_{13}\\
+0 & a_{22} & 0\\
+a_{31} & 0 & 0
+\end{array}\right|\\
+ & \ \underbrace{\ \left|\begin{array}{ccc}
+a_{11} & 0 & 0\\
+a_{21} & 0 & 0\\
+a_{31} & 0 & 0
+\end{array}\right|}_{=0}+\underbrace{\left|\begin{array}{ccc}
+a_{11} & 0 & 0\\
+a_{21} & 0 & 0\\
+0 & a_{32} & 0
+\end{array}\right|}_{=0}+\underbrace{\dots}_{\text{(all zeros)}}.
+\end{align*}
 
+\end_inset
+
+All but 
+\begin_inset Formula $6$
+\end_inset
+
+ determinants are zero because in all other terms,
+ at least one 
+\begin_inset Quotes bld
+\end_inset
+
+row direction
+\begin_inset Quotes brd
+\end_inset
+
+ is repeated.
+ These 
+\begin_inset Formula $6$
+\end_inset
+
+ non-zero determinants,
+ as we now argue,
+ actually correspond to 
+\begin_inset Formula $3!$
+\end_inset
+
+ choices.
+ There are 
+\begin_inset Formula $n$
+\end_inset
+
+ choices for the first 
 \end_layout
 
 \end_body
