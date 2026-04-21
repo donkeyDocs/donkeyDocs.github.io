@@ -258,16 +258,62 @@ Normalisation.
 
 \emph default
  
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+We require that 
 \begin_inset Formula $\det I=1$
 \end_inset
 
 .
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
+
+\emph on
+Anti-symmetry.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let 
+\begin_inset Formula $A\in\F^{(n\times n)}$
+\end_inset
+
+ and 
+\begin_inset Formula $A'$
+\end_inset
+
+ be the same as 
+\begin_inset Formula $A$
+\end_inset
+
+ except two of its rows have been exchanged.
+ 
+\end_layout
+
+\begin_layout Standard
+We require that 
+\begin_inset Formula $\det(A)=\det(A')$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Linearity in each row.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
 
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_body
 \end_document

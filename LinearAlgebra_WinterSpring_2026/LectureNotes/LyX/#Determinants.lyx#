@@ -6,36 +6,7 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{hyperref}
-
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-	citecolor=blue,
-    }
-
-\hypersetup{hidelinks,
-backref=true,
-pagebackref=true,
-hyperindex=true,
-breaklinks=true,
-colorlinks=true,%linkcolor=black,
-urlcolor=blue,
-bookmarks=true,
-bookmarksopen=false}
-
-
-\usepackage{color}
-\definecolor{purple}{RGB}{0,0,0} %{120,20,120}
-\newcommand\branchcolor[2]{{\color{#1} #2}}
-\newcommand\branchpurple[1]{{\color{purple} #1}}
-
-
-
-\usepackage{lineno}
-\linenumbers
+\usepackage{xcolor}
 \end_preamble
 \use_default_options true
 \begin_modules
