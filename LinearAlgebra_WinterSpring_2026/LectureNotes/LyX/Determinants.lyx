@@ -1637,11 +1637,11 @@ a_{21} & 0 & 0\\
 0 & a_{22} & 0\\
 a_{31} & 0 & 0
 \end{array}\right|\\
- & \ \ \left|\begin{array}{ccc}
+ & \ \ \underbrace{\left|\begin{array}{ccc}
 a_{11} & 0 & 0\\
 a_{21} & 0 & 0\\
 a_{31} & 0 & 0
-\end{array}\right|_{=0}+\underbrace{\left|\begin{array}{ccc}
+\end{array}\right|}_{=0}+\underbrace{\left|\begin{array}{ccc}
 a_{11} & 0 & 0\\
 a_{21} & 0 & 0\\
 0 & a_{32} & 0
@@ -1669,17 +1669,32 @@ row direction
 \end_inset
 
  non-zero determinants,
- as we now argue,
+ as we now justify,
  actually correspond to 
 \begin_inset Formula $3!$
 \end_inset
 
  choices.
  There are 
-\begin_inset Formula $n$
+\begin_inset Formula $n=3$
 \end_inset
 
- choices for the first 
+ choices for the first row.
+ Once that is fixed,
+ one cannot have a term in that column,
+ so there are 
+\begin_inset Formula $n-1=2$
+\end_inset
+
+ choices for the next row.
+ And finally,
+ there is only 
+\begin_inset Formula $1$
+\end_inset
+
+ choice for the last row.
+ [TODO:
+ resume from page 10 of Gowtham's note next time]
 \end_layout
 
 \end_body
