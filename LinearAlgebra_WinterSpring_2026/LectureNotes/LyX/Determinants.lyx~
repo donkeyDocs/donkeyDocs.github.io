@@ -794,6 +794,11 @@ tuple "list"
 
 ,
  satisfying the three axioms listed there.
+ Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+ be any .
  Then,
  
 \begin_inset Formula $\det$
@@ -804,7 +809,7 @@ tuple "list"
 
 \begin_deeper
 \begin_layout Enumerate
-nth
+If any 
 \end_layout
 
 \end_deeper
