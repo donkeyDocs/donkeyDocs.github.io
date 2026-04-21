@@ -827,7 +827,16 @@ If any two rows of
 \end_layout
 
 \begin_layout Enumerate
-aeou
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -894,9 +903,31 @@ and that in turn shows
 
 \end_deeper
 \begin_layout Enumerate
-aeou
+
+\emph on
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $v_{k}=(0\dots0)$
+\end_inset
+
+ is the all-zero row.
+ 
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_inset
 

@@ -429,9 +429,9 @@ th row of
 \begin_inset Formula 
 \[
 A=\left[\begin{array}{ccc}
-\cdots & v_{1} & \cdots\\
+\text{---} & v_{1} & \text{---}\\
  & \vdots\\
-\cdots & v_{n} & \cdots
+\text{---} & v_{n} & \text{---}
 \end{array}\right].
 \]
 
@@ -449,7 +449,7 @@ Define the notation
 We require that 
 \begin_inset Formula 
 \[
-\det(v_{1},\dots,v_{k-1},\quad c_{1}v_{k}+c_{2}u_{k},\quad v_{k+1},\dots v_{n})
+\det(v_{1},\dots,v_{k-1},\quad\underbrace{c_{1}v_{k}+c_{2}u_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n})
 \]
 
 \end_inset
@@ -465,8 +465,8 @@ We require that
 
 \begin_inset Formula 
 \begin{align*}
-c_{1}\det(v_{1},\dots v_{k-1},\quad v_{k},\quad v_{k+1},\dots v_{n}) & \quad+\\
-c_{2}\det(v_{1},\dots v_{k-1},\quad u_{k},\quad v_{k+1},\dots v_{n}) & .
+c_{1}\det(v_{1},\dots v_{k-1},\quad\underbrace{v_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n}) & \quad+\\
+c_{2}\det(v_{1},\dots v_{k-1},\quad\underbrace{u_{k}}_{k\text{th row}},\quad v_{k+1},\dots v_{n}) & .
 \end{align*}
 
 \end_inset
@@ -827,11 +827,33 @@ If any two rows of
 \end_layout
 
 \begin_layout Enumerate
-aeou
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If the rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are linearly dependent,
+ then 
+\begin_inset Formula $\det A=0.$
+\end_inset
+
+
 \end_layout
 
 \end_deeper
-\begin_layout Lemma
+\begin_layout Standard
 \begin_inset Branch proof
 inverted 0
 status open
@@ -840,20 +862,22 @@ status open
 Write 
 \begin_inset Formula 
 \[
-A=\begin{array}{ccc}
- & v_{1}\\
+A=\left[\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
  & \vdots\\
- & v_{n}
-\end{array}
+\text{---} & v_{n} & \text{---}
+\end{array}\right]
 \]
 
 \end_inset
 
-Proceed as follows.
+and proceed as follows.
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
+
+\emph on
 If any two rows of 
 \begin_inset Formula $A$
 \end_inset
@@ -866,10 +890,97 @@ If any two rows of
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Let 
+Suppose 
+\begin_inset Formula $v_{j}=v_{k}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\ \ \det(v_{1},\dots,\underbrace{v_{j}}_{j\text{th row}},\dots,\underbrace{v_{k}}_{k\text{th row}},\dots v_{n})\\
+ & =-\det(v_{1},\dots,\underbrace{v_{k}}_{j\text{th row}},\dots,\underbrace{v_{j}}_{k\text{th row}},\dots v_{n}) & \text{By Axiom 2}\\
+ & =-\det(A) & \because\text{ }v_{j}=v_{k}
+\end{align*}
+
+\end_inset
+
+and that in turn shows 
+\begin_inset Formula $\det(A)=0$
+\end_inset
+
+.
 \end_layout
 
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $v_{k}=(0\dots0)$
+\end_inset
+
+ is the all-zero row.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\det(v_{1},\dots,v_{k},\dots v_{n})\\
+ & =\det(v_{1},\dots,0\cdot v_{k},\dots v_{n}) & \because\ 0\cdot v_{k}=v_{k}\\
+ & =0\cdot\det(v_{1},\dots,v_{k},\dots v_{n}) & \text{By Axiom 3}\\
+ & =0.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+If the rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are linearly dependent,
+ then 
+\begin_inset Formula $\det A=0.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Without loss of generality,
+ let 
+\begin_inset Formula $v_{1}=\sum^{n}_{i=2}c_{i}v_{i}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_inset
 

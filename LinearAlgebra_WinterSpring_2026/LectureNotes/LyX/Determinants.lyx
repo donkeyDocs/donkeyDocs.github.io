@@ -839,6 +839,19 @@ If
 .
 \end_layout
 
+\begin_layout Enumerate
+If the rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are linearly dependent,
+ then 
+\begin_inset Formula $\det A=0.$
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Branch proof
@@ -888,7 +901,7 @@ Suppose
 \begin_inset Formula 
 \begin{align*}
 \det(A) & =\ \ \det(v_{1},\dots,\underbrace{v_{j}}_{j\text{th row}},\dots,\underbrace{v_{k}}_{k\text{th row}},\dots v_{n})\\
- & =-\det(v_{1},\dots,\underbrace{v_{k}}_{j\text{th row}},\dots,\underbrace{v_{j}}_{k\text{th row}},\dots v_{n}) & \text{By axiom 2}\\
+ & =-\det(v_{1},\dots,\underbrace{v_{k}}_{j\text{th row}},\dots,\underbrace{v_{j}}_{k\text{th row}},\dots v_{n}) & \text{By Axiom 2}\\
  & =-\det(A) & \because\text{ }v_{j}=v_{k}
 \end{align*}
 
@@ -899,6 +912,46 @@ and that in turn shows
 \end_inset
 
 .
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has a zero row,
+ then 
+\begin_inset Formula $\det A=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $v_{k}=(0\dots0)$
+\end_inset
+
+ is the all-zero row.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\det(v_{1},\dots,v_{k},\dots v_{n})\\
+ & =\det(v_{1},\dots,0\cdot v_{k},\dots v_{n}) & \because\ 0\cdot v_{k}=v_{k}\\
+ & =0\cdot\det(v_{1},\dots,v_{k},\dots v_{n}) & \text{By Axiom 3}\\
+ & =0.
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
