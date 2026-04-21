@@ -852,6 +852,11 @@ If the rows of
 
 \end_layout
 
+\begin_layout Enumerate
+Adding or subtracting a multiple of one row from another,
+ leaves the determine unchanged.
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Branch proof
@@ -956,9 +961,44 @@ Suppose
 
 \end_deeper
 \begin_layout Enumerate
-aeou
+
+\emph on
+If the rows of 
+\begin_inset Formula $A$
+\end_inset
+
+ are linearly dependent,
+ then 
+\begin_inset Formula $\det A=0.$
+\end_inset
+
+
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+Without loss of generality,
+ let 
+\begin_inset Formula $v_{1}=\sum^{n}_{i=2}c_{i}v_{i}$
+\end_inset
+
+.
+ One can therefore write 
+\begin_inset Formula 
+\begin{align*}
+\det(A) & =\det(v_{1},v_{2},\dots v_{n})\\
+ & =\det\left(\sum^{n}_{i=2}c_{i}v_{i},v_{2},\dots v_{n}\right)\\
+ & =\sum^{n}_{i=2}c_{i}\cdot\det(v_{i},v_{2},\dots v_{n}) & \text{By Axiom 3}\\
+ & =\sum^{n}_{i=2}c_{i}\cdot0 & \text{From Property 1}\\
+ & =0.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_inset
 
