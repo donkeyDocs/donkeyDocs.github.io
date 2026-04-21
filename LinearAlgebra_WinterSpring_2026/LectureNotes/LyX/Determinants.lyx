@@ -108,7 +108,7 @@ End
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification default
 \crossref_package cleveref
 \use_formatted_ref 0
@@ -170,7 +170,7 @@ Determinants
 \end_layout
 
 \begin_layout Author
-Essentially a transcription of Gowtham Kurri's note on the topic
+Essentially a transcription of Gowtham Kurri's note (based on Gilbert Strang's lectures) on the topic
 \begin_inset Foot
 status open
 
@@ -1358,7 +1358,7 @@ tuple "list"
 \begin_layout Solution*
 We have 
 \begin_inset Formula 
-\begin{align*}
+\begin{align}
 \left|\begin{array}{cc}
 a & b\\
 c & d
@@ -1368,7 +1368,7 @@ c & d
 \end{array}\right|+\left|\begin{array}{cc}
 0 & b\\
 c & d
-\end{array}\right| & \text{Using Axiom 3 on row 1}\\
+\end{array}\right| & \text{Using Axiom 3 on row 1}\nonumber \\
  & =\underbrace{\left|\begin{array}{cc}
 a & 0\\
 c & 0
@@ -1378,7 +1378,7 @@ a & 0\\
 \end{array}\right|}_{\text{\text{Using Axiom 3 on row 2}}}+\left|\begin{array}{cc}
 0 & b\\
 c & d
-\end{array}\right|\\
+\end{array}\right|\nonumber \\
  & =\left|\begin{array}{cc}
 a & 0\\
 c & 0
@@ -1391,38 +1391,159 @@ c & 0
 \end{array}\right|+\left|\begin{array}{cc}
 0 & b\\
 0 & d
-\end{array}\right|}_{\text{Using Axiom 3 on row 2}}\\
+\end{array}\right|}_{\text{Using Axiom 3 on row 2}}\nonumber \\
  & =\underbrace{\left|\begin{array}{cc}
 a & 0\\
 0 & 0
 \end{array}\right|}_{\text{subtracting \ensuremath{ca^{-1}} row 1 from row 2}}+\left|\begin{array}{cc}
 a & 0\\
 0 & d
-\end{array}\right| & \text{Using Property 4}\\
+\end{array}\right| & \text{Using Property 4}\nonumber \\
  & +\left|\begin{array}{cc}
 0 & b\\
 c & 0
 \end{array}\right|+\underbrace{\left|\begin{array}{cc}
 0 & b\\
 0 & 0
-\end{array}\right|}_{\text{subtracting \ensuremath{db^{-1}} row 1 from row 2}}\\
+\end{array}\right|}_{\text{subtracting \ensuremath{db^{-1}} row 1 from row 2}}\label{eq:expansion}\\
  & =\left|\begin{array}{cc}
 a & 0\\
 0 & d
 \end{array}\right|+\left|\begin{array}{cc}
 0 & b\\
 c & 0
-\end{array}\right| & \text{Using Property 2}\\
+\end{array}\right| & \text{Using Property 2}\nonumber \\
  & =ad-\left|\begin{array}{cc}
 b & 0\\
 0 & c
-\end{array}\right| & \text{Using Property 5 and Axiom 2}\\
- & =ad-bc.
-\end{align*}
+\end{array}\right| & \text{Using Property 5 and Axiom 2}\nonumber \\
+ & =ad-bc.\nonumber 
+\end{align}
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+One can already see a pattern emerge.
+ Every row,
+ splits into 
+\begin_inset Formula $n$
+\end_inset
+
+ 
+\begin_inset Quotes bld
+\end_inset
+
+coordinate directions
+\begin_inset Quotes brd
+\end_inset
+
+.
+ Thus,
+ if one expands as we did above (until 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:expansion"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+) for an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix,
+ the expansion would contain 
+\begin_inset Formula 
+\[
+\underbrace{n\cdot n\cdot\cdots n}_{n\text{-many}}=n^{n}
+\]
+
+\end_inset
+
+ terms.
+ Most of these terms (except 
+\begin_inset Formula $n!$
+\end_inset
+
+,
+ as we will see),
+ will become zero.
+ This is because most of these terms would have 
+\begin_inset Quotes bld
+\end_inset
+
+two rows point in the same direction
+\begin_inset Quotes brd
+\end_inset
+
+,
+ e.g.
+ it will have terms like 
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a & 0\\
+c & 0
+\end{array}\right|,\left|\begin{array}{cc}
+0 & b\\
+0 & d
+\end{array}\right|
+\]
+
+\end_inset
+
+both of which are zero (as explained above).
+\end_layout
+
+\begin_layout Standard
+Let us work out the 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ case to build some more intuition,
+ before we tackle the general case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+Show that 
+\begin_inset Formula $\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=ad-bc$
+\end_inset
+
+,
+ starting from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body
