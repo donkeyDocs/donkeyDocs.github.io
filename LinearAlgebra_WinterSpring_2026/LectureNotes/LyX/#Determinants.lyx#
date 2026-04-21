@@ -6,7 +6,36 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+	citecolor=blue,
+    }
+
+\hypersetup{hidelinks,
+backref=true,
+pagebackref=true,
+hyperindex=true,
+breaklinks=true,
+colorlinks=true,%linkcolor=black,
+urlcolor=blue,
+bookmarks=true,
+bookmarksopen=false}
+
+
+\usepackage{color,xcolor,graphicx}
+\definecolor{purple}{RGB}{0,0,0} %{120,20,120}
+\newcommand\branchcolor[2]{{\color{#1} #2}}
+\newcommand\branchpurple[1]{{\color{purple} #1}}
+
+
+
+%\usepackage{lineno}
+%\linenumbers
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -81,7 +110,7 @@ End
 \paperorientation portrait
 \suppress_date false
 \justification default
-\crossref_package refstyle
+\crossref_package cleveref
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
@@ -165,10 +194,6 @@ Essentially a transcription of Gowtham Kurri's note on the topic
 inverted 0
 status open
 
-\begin_layout Standard
-Story:
-\end_layout
-
 \begin_layout Itemize
 Usually determinant is thought of as a quantity
 \end_layout
@@ -190,7 +215,7 @@ Here,
 
 \begin_deeper
 \begin_layout Itemize
-We start by listing three desirable properties that we want 
+We start by listing three desirable properties that we want,
 \end_layout
 
 \begin_deeper
@@ -199,7 +224,11 @@ a function
 \begin_inset Formula $\det:\F^{n\times n}\to\F$
 \end_inset
 
- to satisfy where 
+ to satisfy,
+\end_layout
+
+\begin_layout Itemize
+where 
 \begin_inset Formula $\F$
 \end_inset
 
@@ -259,7 +288,14 @@ Axioms for a Determinant
 
 \end_inset
 
- Consider any function 
+
+\begin_inset CommandInset label
+LatexCommand label
+name "def:AxiomsForDeterminant"
+
+\end_inset
+
+Consider any function 
 \begin_inset Formula $\det:\F^{n\times n}\to\F$
 \end_inset
 
@@ -342,9 +378,188 @@ We require that
 
 \end_deeper
 \begin_layout Enumerate
+
+\emph on
 Linearity in each row.
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+Determinant is linear in each row separately.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+ and denote by 
+\begin_inset Formula $v_{j}$
+\end_inset
+
+ the 
+\begin_inset Formula $j$
+\end_inset
+
+th row of 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ i.e.
+ 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+\cdots & v_{1} & \cdots\\
+ & \vdots\\
+\cdots & v_{n} & \cdots
+\end{array}\right].
+\]
+
+\end_inset
+
+Define the notation 
+\begin_inset Formula $\det(v_{1},v_{2},\dots v_{n}):=\det(A)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+We require that 
+\begin_inset Formula 
+\[
+\det(v_{1},\dots,v_{k-1},\quad c_{1}v_{k}+c_{2}u_{k},\quad v_{k+1},\dots v_{n})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+c_{1}\det(v_{1},\dots v_{k-1},\quad v_{k},\quad v_{k+1},\dots v_{n}) & \quad+\\
+c_{2}\det(v_{1},\dots v_{k-1},\quad u_{k},\quad v_{k+1},\dots v_{n}) & .
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Itemize
+Let us quickly recall the formulae for the determinant
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+that we learnt in high-school,
+ for 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ determinants:
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=ad-bc,
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\left|\begin{array}{ccc}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{array}\right|=aei-afh+bfg-bdi+cdh-ceg.
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+To ensure we have understood 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+,
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+let us check that the three properties are satisfied 
+\end_layout
+
+\begin_layout Itemize
+by our formula for the 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ case.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Normalisation:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Clearly,
+ 
+\begin_inset Formula $\begin{vmatrix}\\\\\\\end{vmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

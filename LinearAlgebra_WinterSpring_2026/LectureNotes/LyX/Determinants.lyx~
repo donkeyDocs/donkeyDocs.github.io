@@ -34,8 +34,8 @@ bookmarksopen=false}
 
 
 
-\usepackage{lineno}
-\linenumbers
+%\usepackage{lineno}
+%\linenumbers
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -110,7 +110,7 @@ End
 \paperorientation portrait
 \suppress_date false
 \justification default
-\crossref_package refstyle
+\crossref_package cleveref
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
@@ -215,7 +215,7 @@ Here,
 
 \begin_deeper
 \begin_layout Itemize
-We start by listing three desirable properties that we want 
+We start by listing three desirable properties that we want,
 \end_layout
 
 \begin_deeper
@@ -284,7 +284,14 @@ Axioms for a Determinant
 
 \end_inset
 
- Consider any function 
+
+\begin_inset CommandInset label
+LatexCommand label
+name "def:AxiomsForDeterminant"
+
+\end_inset
+
+Consider any function 
 \begin_inset Formula $\det:\F^{n\times n}\to\F$
 \end_inset
 
@@ -467,13 +474,21 @@ that we learnt in high-school,
 \begin_inset Formula $3\times3$
 \end_inset
 
- determinants.
+ determinants:
 \begin_inset Formula 
 \[
 \left|\begin{array}{cc}
 a & b\\
 c & d
-\end{array}\right|=ad-bc,\quad\left|\begin{array}{ccc}
+\end{array}\right|=ad-bc,
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\left|\begin{array}{ccc}
 a & b & c\\
 d & e & f\\
 g & h & i
@@ -486,6 +501,22 @@ g & h & i
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+To ensure we have understood 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Itemize
 Here,
  we take a different approach.
