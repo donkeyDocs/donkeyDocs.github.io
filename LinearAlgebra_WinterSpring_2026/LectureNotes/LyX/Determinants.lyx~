@@ -873,7 +873,7 @@ The determinant of a diagonal matrix or a triangular matrix is equal to the prod
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status open
+status collapsed
 
 \begin_layout Proof
 Write 
@@ -1116,6 +1116,7 @@ We split this into two parts
 The determinant of a diagonal matrix is equal to the product of the diagonal entries.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 We have
 \end_layout
@@ -1155,12 +1156,14 @@ a_{11}\\
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 
 \emph on
 The determinant of a triangular matrix is equal to the product of the diagonal entries.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Suppose 
 \begin_inset Formula $A$
@@ -1234,17 +1237,125 @@ a_{11} & 0 & \cdots & 0\\
 \end_inset
 
 and note that 
-\begin_inset Formula $\det A=\det A'$
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det A' & \text{using Property 4}\\
+ & =a_{11}a_{22}\dots a_{nn} & \text{using Property 5(a) above}.
+\end{align*}
+
 \end_inset
 
- using Property 4 above.
+Suppose 
+\begin_inset Formula $A$
+\end_inset
+
+ is such that 
+\begin_inset Formula $a_{ii}=0$
+\end_inset
+
+ for some 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ It is not hard to see that one can obtain,
+ by a linear combination of rows,
+ a matrix that 
+\begin_inset Formula $A'$
+\end_inset
+
+ such that one of its rows is zero.
+ In this case,
+ 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det A' & \text{Property 4}\\
+ & =0 & \text{Property 2}\\
+ & =a_{11}a_{22}\cdots a_{nn} & \because\ a_{ii}=0.
+\end{align*}
+
+\end_inset
+
+When 
+\begin_inset Formula $A$
+\end_inset
+
+ is lower triangular,
+ one can proceed analogously.
  
 \end_layout
 
 \end_deeper
 \end_deeper
+\end_deeper
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+We now turn our attention to the task of deriving an explicit formula for the determinant,
+ starting from the three axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ We look at the 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ and 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ cases first,
+ and then derive the formula for the general case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+We show that 
+\begin_inset Formula $\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|=ad-bc$
+\end_inset
+
+,
+ starting from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Example
 
 \end_layout
 
