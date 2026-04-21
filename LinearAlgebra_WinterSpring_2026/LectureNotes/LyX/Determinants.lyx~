@@ -166,6 +166,16 @@ Determinants
 
 \begin_layout Author
 Essentially a transcription of Gowtham Kurri's note on the topic
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+I only made a few minor narrative/editorial changes.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -688,13 +698,14 @@ c & d
 
 \end_deeper
 \end_deeper
-\begin_layout Itemize
-It is worth pointing out that 
+\end_inset
+
+
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-in general,
+It is worth pointing out that,
+ in general,
  
 \begin_inset Formula 
 \[
@@ -716,7 +727,6 @@ in general,
 
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 In fact,
  it turns out that if 
@@ -739,10 +749,64 @@ In fact,
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+Before we show that these three axioms uniquely specify the determinant function,
+ we derive some interesting properties,
+ assuming them (the three axioms).
+ 
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Lemma
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Let 
+\begin_inset Formula $\det:\F^{n\times n}\to\F$
+\end_inset
+
+ be as in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+,
+ satisfying the three axioms listed there.
+ Then,
+ 
+\begin_inset Formula $\det$
+\end_inset
+
+ also satisfies the following properties.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+nth
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

@@ -143,6 +143,9 @@ End
 \papersides 1
 \paperpagestyle default
 \tablestyle default
+\bullet 1 0 9 -1
+\bullet 2 0 10 -1
+\bullet 3 0 0 -1
 \tracking_changes false
 \output_changes false
 \change_bars false
@@ -527,6 +530,7 @@ tuple "list"
 let us check that the three properties are satisfied 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 by our formula for the 
 \begin_inset Formula $2\times2$
@@ -541,6 +545,55 @@ by our formula for the
 
 \end_deeper
 \begin_layout Itemize
+Normalisation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Clearly,
+ 
+\begin_inset Formula $\left|\begin{array}{cc}
+1\\
+ & 1
+\end{array}\right|=1$
+\end_inset
+
+ (set 
+\begin_inset Formula $b=c=0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $ad$
+\end_inset
+
+ survives).
+\end_layout
+
+\begin_layout Itemize
+Similarly,
+ 
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|=1$
+\end_inset
+
+ (set 
+\begin_inset Formula $b=c=d=f=g=h=0$
+\end_inset
+
+;
+ only the 
+\begin_inset Formula $aei$
+\end_inset
+
+ term survives).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 Antisymmetry:
  
 \end_layout
@@ -549,21 +602,27 @@ Antisymmetry:
 \begin_layout Itemize
 Clearly,
  
-\begin_inset Formula $\begin{vmatrix}1 & 0\\
-0 & 1
+\begin_inset Formula $\begin{vmatrix}1\\
+ & 1
 \end{vmatrix}=1$
 \end_inset
 
  but 
-\begin_inset Formula $\begin{vmatrix}0 & 1\\
-1 & 0
+\begin_inset Formula $\begin{vmatrix} & 1\\
+1
 \end{vmatrix}=-1$
 \end_inset
 
-.
+ (only 
+\begin_inset Formula $-bc$
+\end_inset
+
+ survives).
 \end_layout
 
 \begin_layout Itemize
+Again,
+ 
 \begin_inset Formula $\left|\begin{array}{ccc}
 1\\
  & 1\\
@@ -572,9 +631,124 @@ Clearly,
 \end_inset
 
  but 
+\begin_inset Formula $\left|\begin{array}{ccc}
+1\\
+ &  & 1\\
+1
+\end{array}\right|=1\cdot(-1)=-1$
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Linearity in each row:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We leave this as a small exercise to verify that 
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a+a' & b+b'\\
+c & d
+\end{array}\right|\overset{\text{exercise}}{=}\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|+\left|\begin{array}{cc}
+a' & b'\\
+c & d
+\end{array}\right|.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is immediate
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+ta & tb\\
+c & d
+\end{array}\right|=t\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+It is worth pointing out that,
+ in general,
+ 
+\begin_inset Formula 
+\[
+\det(A+B)\neq\det(A)+\det(B)
+\]
+
+\end_inset
+
+ and similarly,
+ in general,
+ 
+\begin_inset Formula 
+\[
+\det(tA)\neq t\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In fact,
+ it turns out that if 
+\begin_inset Formula $A$
+\end_inset
+
+ is an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix,
+ then 
+\begin_inset Formula 
+\[
+\det(tA)=t^{n}\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+Before we show that these three axioms uniquely specify the determinant function,
+ we 
+\end_layout
+
 \end_inset
 
 
