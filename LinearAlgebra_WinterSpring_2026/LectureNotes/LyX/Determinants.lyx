@@ -143,6 +143,9 @@ End
 \papersides 1
 \paperpagestyle default
 \tablestyle default
+\bullet 1 0 9 -1
+\bullet 2 0 10 -1
+\bullet 3 0 0 -1
 \tracking_changes false
 \output_changes false
 \change_bars false
@@ -527,6 +530,7 @@ tuple "list"
 let us check that the three properties are satisfied 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 by our formula for the 
 \begin_inset Formula $2\times2$
@@ -546,6 +550,8 @@ Normalisation:
 
 \begin_deeper
 \begin_layout Itemize
+Clearly,
+ 
 \begin_inset Formula $\left|\begin{array}{cc}
 1\\
  & 1
@@ -561,10 +567,12 @@ Normalisation:
 \begin_inset Formula $ad$
 \end_inset
 
- survives)
+ survives).
 \end_layout
 
 \begin_layout Itemize
+Similarly,
+ 
 \begin_inset Formula $\left|\begin{array}{ccc}
 1\\
  & 1\\
@@ -581,7 +589,7 @@ Normalisation:
 \begin_inset Formula $aei$
 \end_inset
 
- term survives)
+ term survives).
 \end_layout
 
 \end_deeper
@@ -613,6 +621,8 @@ Clearly,
 \end_layout
 
 \begin_layout Itemize
+Again,
+ 
 \begin_inset Formula $\left|\begin{array}{ccc}
 1\\
  & 1\\
@@ -638,10 +648,92 @@ Linearity in each row:
 
 \begin_deeper
 \begin_layout Itemize
+We leave this as a small exercise to verify that 
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+a+a' & b+b'\\
+c & d
+\end{array}\right|\overset{\text{exercise}}{=}\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|+\left|\begin{array}{cc}
+a' & b'\\
+c & d
+\end{array}\right|.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is immediate
+\begin_inset Formula 
+\[
+\left|\begin{array}{cc}
+ta & tb\\
+c & d
+\end{array}\right|=t\left|\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right|.
+\]
+
+\end_inset
+
 
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Itemize
+It is worth pointing out that,
+ in general,
+ 
+\begin_inset Formula 
+\[
+\det(A+B)\neq\det(A)+\det(B)
+\]
+
+\end_inset
+
+ and similarly,
+ in general,
+ 
+\begin_inset Formula 
+\[
+\det(tA)\neq t\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In fact,
+ it turns out that if 
+\begin_inset Formula $A$
+\end_inset
+
+ is an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix,
+ then 
+\begin_inset Formula 
+\[
+\det(tA)=t^{n}\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
