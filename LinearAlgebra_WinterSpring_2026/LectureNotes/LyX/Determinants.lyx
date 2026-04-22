@@ -2324,11 +2324,28 @@ th column of
 \begin{align*}
 \det A^{T}=\det B= & \sum_{\sigma\in S_{n}}b_{1\sigma(1)}b_{2\sigma(2)}\cdots b_{n\sigma(n)}\sign(\sigma)\\
 = & \sum_{\sigma\in S_{n}}a_{\sigma(1)1}a_{\sigma(2)2}\cdots a_{\sigma(n)n}\sign(\sigma)\\
+= & \sum_{\sigma\in S_{n}}a_{1\sigma^{-1}(1)}a_{2\sigma^{-1}(2)}\cdots a_{n\sigma^{-1}(n)}\sign(\sigma)\\
+= & \sum_{\pi\in S_{n}}a_{1\pi(1)}a_{2\pi(2)}\cdots a_{n\pi(n)}\sign(\pi^{-1}) & \text{take }\pi=\sigma^{-1}\\
+= & \sum_{\pi\in S_{n}}a_{1\pi(1)}a_{2\pi(2)}\cdots a_{n\pi(n)}\sign(\pi) & \because\sign(\pi)=\sign(\pi^{-1})\\
+= & \det A.
 \end{align*}
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Proposition
+It holds that 
+\begin_inset Formula $\det(AB)=\det A\cdot\det B$
+\end_inset
+
+ if 
+\begin_inset Formula $\det A\det B\neq0$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body
