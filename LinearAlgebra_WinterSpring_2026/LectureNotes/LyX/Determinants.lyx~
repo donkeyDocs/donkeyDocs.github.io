@@ -2487,7 +2487,16 @@ In this part,
 \end_layout
 
 \begin_layout Definition
-For an 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Trace
+\end_layout
+
+\end_inset
+
+ For an 
 \begin_inset Formula $n\times n$
 \end_inset
 
@@ -2496,7 +2505,11 @@ For an
 \end_inset
 
 ,
- 
+ the trace of 
+\begin_inset Formula $A$
+\end_inset
+
+ is defined as 
 \begin_inset Formula $\tr(A)=\sum^{n}_{i=1}a_{ii}$
 \end_inset
 

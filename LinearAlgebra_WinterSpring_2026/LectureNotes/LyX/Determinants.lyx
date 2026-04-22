@@ -2517,5 +2517,47 @@ Trace
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+To state the next lemma,
+ we recall that 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ if 
+\begin_inset Formula 
+\[
+Ax=\lambda x,\quad\forall x\in\F^{n},x\neq0
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula $\F\in\{\R,\C\}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
