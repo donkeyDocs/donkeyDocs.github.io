@@ -216,6 +216,14 @@ I only made a few minor narrative/editorial changes.
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sign}{\mathsf{sign}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
 status collapsed
@@ -1304,7 +1312,7 @@ When
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Standard
 We now turn our attention to the task of deriving an explicit formula for the determinant,
@@ -1368,6 +1376,11 @@ tuple "list"
 .
  
 \end_layout
+
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status collapsed
 
 \begin_layout Solution*
 We have 
@@ -1439,10 +1452,15 @@ b & 0\\
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Standard
 One can already see a pattern emerge.
@@ -1568,6 +1586,11 @@ tuple "list"
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status collapsed
+
 \begin_layout Solution*
 Our strategy would again be to decompose,
  in terms of linear combinations of rows,
@@ -1588,6 +1611,7 @@ tuple "list"
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 We have 
 \begin_inset Formula 
@@ -1660,6 +1684,10 @@ a_{21} & 0 & 0\\
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Itemize
 All but 
 \begin_inset Formula $6$
 \end_inset
@@ -1674,7 +1702,12 @@ row direction
 \end_inset
 
  is repeated.
- These 
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These 
 \begin_inset Formula $6$
 \end_inset
 
@@ -1685,19 +1718,32 @@ row direction
 \end_inset
 
  choices.
- There are 
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are 
 \begin_inset Formula $n=3$
 \end_inset
 
  choices for the first row.
- Once that is fixed,
+ 
+\end_layout
+
+\begin_layout Itemize
+Once that is fixed,
  one cannot have a term in that column,
  so there are 
 \begin_inset Formula $n-1=2$
 \end_inset
 
  choices for the next row.
- And finally,
+ 
+\end_layout
+
+\begin_layout Itemize
+And finally,
  there is only 
 \begin_inset Formula $1$
 \end_inset
@@ -1705,10 +1751,368 @@ row direction
  choice for the last row.
 \end_layout
 
-\begin_layout Solution*
-Continuing[TODO:
- resume from page 10 of Gowtham's note next time]
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Focussing on the non-zero terms,
+ we have 
+\begin_inset Formula 
+\begin{align}
+\det A= & \left|\begin{array}{ccc}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|\nonumber \\
+= & a_{11}a_{22}a_{33}\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|+a_{11}a_{23}a_{32}\left|\begin{array}{ccc}
+1\\
+ &  & 1\\
+ & 1
+\end{array}\right|\nonumber \\
+ & a_{12}a_{21}a_{33}\left|\begin{array}{ccc}
+ & 1\\
+1\\
+ &  & 1
+\end{array}\right|+a_{12}a_{23}a_{31}\left|\begin{array}{ccc}
+ & 1\\
+ &  & 1\\
+1
+\end{array}\right|+\nonumber \\
+ & a_{13}a_{21}a_{32}\left|\begin{array}{ccc}
+ &  & 1\\
+1\\
+ & 1
+\end{array}\right|+a_{13}a_{22}a_{31}\left|\begin{array}{ccc}
+ &  & 1\\
+ & 1\\
+1
+\end{array}\right|\nonumber \\
+= & a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)+\nonumber \\
+ & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right)\label{eq:3by3derivation}
+\end{align}
+
+\end_inset
+
+ as asserted.
 \end_layout
 
+\begin_layout Itemize
+We now write this expression more systematically,
+ to see if a more generalisable formula can be obtained.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+First,
+ let us recall some basics of permutation.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Notation.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An example of a permutation 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ on 
+\begin_inset Formula $\{1,2,3\}$
+\end_inset
+
+ is 
+\begin_inset Formula $\sigma=(1,3,2)$
+\end_inset
+
+ which means 
+\begin_inset Formula $\sigma(1)=1,\sigma(2)=3,\sigma(3)=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+We define the sign of a permutation as
+\begin_inset Formula 
+\[
+\sign(\sigma)=\begin{cases}
+1 & \text{if \ensuremath{N_{\sigma}} is even}\\
+0 & \text{if \ensuremath{N_{\sigma}} is odd}
+\end{cases}
+\]
+
+\end_inset
+
+with 
+\begin_inset Formula $N_{\sigma}$
+\end_inset
+
+ being the number of pairwise exchanges required to transform 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ to 
+\begin_inset Formula $(1,2,3)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fact.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Every permutation of a finite set can be expressed as the product of transpositions.
+ 
+\end_layout
+
+\begin_layout Itemize
+For a given permutation,
+ although many such expressions can exist
+\begin_inset Newline newline
+\end_inset
+
+they all contain either 
+\begin_inset Newline newline
+\end_inset
+
+an even number of transpositions or 
+\begin_inset Newline newline
+\end_inset
+
+an odd number of transpositions.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Returning to our discussion,
+ note that one can continue with 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:3by3derivation"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ above and write 
+\begin_inset Formula 
+\begin{equation}
+\det(A)=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)\label{eq:3times3generalisable}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula 
+\begin{align*}
+S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
+= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} .
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+Our expression for the determinant for the 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ case 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:3times3generalisable"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ is quite suggestive.
+\end_layout
+
+\begin_layout Standard
+We now use our intuition to work out the general expression for the determinant of an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+Let 
+\begin_inset Formula $\det$
+\end_inset
+
+ be any function satisfying 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\det(A)$
+\end_inset
+
+ is uniquely specified by 
+\begin_inset Formula 
+\[
+\det(A)=\sum_{\sigma\in S_{n}}a_{1\sigma(1)}a_{2\sigma(2)}\cdots a_{n\sigma(n)}\sign(\sigma)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ is the set of all permutations on 
+\begin_inset Formula $n$
+\end_inset
+
+ elements.
+\end_layout
+
+\begin_layout Proof
+The strategy again is to 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+decompose each row such that it has only one non-zero column vector,
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+by invoking Axiom 3 repeatedly,
+ and
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+argue that all but 
+\begin_inset Formula $n!$
+\end_inset
+
+ terms yield 
+\begin_inset Formula $0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+by using the various properties of the determinant we proved (primarily Property 1).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Denote by 
+\begin_inset Formula $a_{ij}$
+\end_inset
+
+ the 
+\begin_inset Formula $i$
+\end_inset
+
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column of 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{n} & \text{---}
+\end{array}\right].
+\]
+
+\end_inset
+
+One can write 
+\begin_inset Formula 
+\begin{align*}
+v_{i} & =(a_{i1},\dots a_{in})\\
+ & =\sum^{n}_{j=1}a_{ij}e_{j}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $e_{1},\dots e_{n}$
+\end_inset
+
+ is the standard basis.
+ Now,
+ one can further write 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det(v_{1},v_{2}\dots v_{n})\\
+ & =\det\left(\sum^{n}_{j=1}a_{1j}e_{j},v_{2},\dots v_{n}\right)\\
+ & =\sum^{n}_{j=1}a_{1j}\det\left(e_{j},v_{2},\dots v_{n}\right) & \text{Axiom 3}\\
+ & =\sum^{n}_{j_{1}=1}\sum^{n}_{j_{2}=1}a_{1j_{1}}a_{2j_{2}}\det(e_{j_{1}},e_{j_{2}},v_{3},\dots v_{n}) & \text{Axiom 3}\\
+ & =\sum^{n}_{j_{1}=1}\sum^{n}_{j_{2}=1}\cdots\sum^{n}_{j_{n}=1}a_{1j_{1}}a_{2j_{2}}\dots j_{nj_{n}}\det(e_{j_{1}},\dots e_{j_{n}}) & \text{Axiom 3}.
+\end{align*}
+
+\end_inset
+
+Note that this sum 
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

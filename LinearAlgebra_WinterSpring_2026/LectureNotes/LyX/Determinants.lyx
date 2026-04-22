@@ -1942,9 +1942,9 @@ S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status collapsed
+status open
 
-\begin_layout Itemize
+\begin_layout Standard
 Our expression for the determinant for the 
 \begin_inset Formula $3\times3$
 \end_inset
@@ -1964,7 +1964,7 @@ tuple "list"
  is quite suggestive.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 We now use our intuition to work out the general expression for the determinant of an 
 \begin_inset Formula $n\times n$
 \end_inset
@@ -2059,11 +2059,54 @@ by using the various properties of the determinant we proved (primarily Property
 
 \end_deeper
 \begin_layout Standard
-Write 
-\begin_inset Formula $A=$
+Denote by 
+\begin_inset Formula $a_{ij}$
 \end_inset
 
+ the 
+\begin_inset Formula $i$
+\end_inset
 
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column of 
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+\text{---} & v_{1} & \text{---}\\
+ & \vdots\\
+\text{---} & v_{n} & \text{---}
+\end{array}\right].
+\]
+
+\end_inset
+
+One can write 
+\begin_inset Formula 
+\begin{align*}
+v_{i} & =(a_{i1},\dots a_{in})\\
+ & =\sum^{n}_{j=1}a_{ij}e_{j}
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $e_{1},\dots e_{n}$
+\end_inset
+
+ is the standard basis.
+ Now,
+ one can further write 
+\begin_inset Formula 
+\begin{align*}
+\det A & =\det(v_{1},v_{2}\dots v_{n})\\
+\end{align*}
+
+\end_inset
+
+ 
 \end_layout
 
 \end_deeper
