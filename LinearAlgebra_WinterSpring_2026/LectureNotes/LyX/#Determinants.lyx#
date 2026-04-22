@@ -224,6 +224,26 @@ I only made a few minor narrative/editorial changes.
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tr}{\mathsf{Tr}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Tr}{\mathsf{Tr}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+In the syllabus
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
 status collapsed
@@ -1312,7 +1332,7 @@ When
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status collapsed
+status open
 
 \begin_layout Standard
 We now turn our attention to the task of deriving an explicit formula for the determinant,
@@ -1339,6 +1359,29 @@ tuple "list"
 
  cases first,
  and then derive the formula for the general case.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+These examples are not strictly needed and one may choose to skip directly to 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:generalDet"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ as well.
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1978,6 +2021,12 @@ We now use our intuition to work out the general expression for the determinant 
 \end_layout
 
 \begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:generalDet"
+
+\end_inset
+
 Let 
 \begin_inset Formula $\det$
 \end_inset
@@ -2026,7 +2075,7 @@ where
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status open
+status collapsed
 
 \begin_layout Proof
 The strategy again is to 
@@ -2204,6 +2253,311 @@ tuple "list"
 \end_layout
 
 \end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+This completes the main result we wanted to discuss.
+ We now look at some other properties of the determinant.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+Show that 
+\begin_inset Formula $\det(A^{T})=\det(A)$
+\end_inset
+
+ where 
+\begin_inset Formula $A^{T}$
+\end_inset
+
+ is the transpose of 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ i.e.
+ 
+\begin_inset Formula $(A^{T})_{ij}=(A)_{ji}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i,j$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Solution*
+Let 
+\begin_inset Formula $B=A^{T}$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $b_{ij}=a_{ji}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+ (we are using 
+\begin_inset Formula $b_{ij}$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{ij}$
+\end_inset
+
+ to denote the 
+\begin_inset Formula $i$
+\end_inset
+
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column of 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $A$
+\end_inset
+
+ respectively).
+ Note 
+\begin_inset Formula 
+\begin{align*}
+\det A^{T}=\det B= & \sum_{\sigma\in S_{n}}b_{1\sigma(1)}b_{2\sigma(2)}\cdots b_{n\sigma(n)}\sign(\sigma)\\
+= & \sum_{\sigma\in S_{n}}a_{\sigma(1)1}a_{\sigma(2)2}\cdots a_{\sigma(n)n}\sign(\sigma)\\
+= & \sum_{\sigma\in S_{n}}a_{1\sigma^{-1}(1)}a_{2\sigma^{-1}(2)}\cdots a_{n\sigma^{-1}(n)}\sign(\sigma)\\
+= & \sum_{\pi\in S_{n}}a_{1\pi(1)}a_{2\pi(2)}\cdots a_{n\pi(n)}\sign(\pi^{-1}) & \text{take }\pi=\sigma^{-1}\\
+= & \sum_{\pi\in S_{n}}a_{1\pi(1)}a_{2\pi(2)}\cdots a_{n\pi(n)}\sign(\pi) & \because\sign(\pi)=\sign(\pi^{-1})\\
+= & \det A.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proposition
+It holds that 
+\begin_inset Formula $\det(AB)=\det A\cdot\det B$
+\end_inset
+
+ if 
+\begin_inset Formula $\det A,\det B\neq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+Proceed as follows.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define 
+\begin_inset Formula $d(A,B):=\det(AB)/\det(B)$
+\end_inset
+
+.
+ Treat 
+\begin_inset Formula $d$
+\end_inset
+
+ as a function of 
+\begin_inset Formula $A$
+\end_inset
+
+ (keep 
+\begin_inset Formula $B$
+\end_inset
+
+ fixed).
+\end_layout
+
+\begin_layout Itemize
+Claim (left as an exercise).
+ 
+\begin_inset Formula $d(A)$
+\end_inset
+
+ satisfies the axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ (i.e.
+ 
+\begin_inset Formula $d(I)=1$
+\end_inset
+
+,
+ anti-symmetry and linearity in any row).
+ 
+\end_layout
+
+\begin_layout Itemize
+We already showed (in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:generalDet"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+) that any function that satisfies the axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ is uniquely specified,
+ we conclude that 
+\begin_inset Formula 
+\[
+d(A)=\det(AB)/\det(B)=\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Recommended reading (ungraded)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+In this part,
+ we briefly look at the trace and a few applications of the determinant.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Trace
+\end_layout
+
+\end_inset
+
+ For an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ the trace of 
+\begin_inset Formula $A$
+\end_inset
+
+ is defined as 
+\begin_inset Formula $\tr(A)=\sum^{n}_{i=1}a_{ii}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+To state the next lemma,
+ we recall that 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ if 
+\begin_inset Formula 
+\[
+Ax=\lambda x,\quad\forall x\in\F^{n},x\neq0
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula $\F\in\{\R,\C\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\end_layout
+
 \end_inset
 
 
