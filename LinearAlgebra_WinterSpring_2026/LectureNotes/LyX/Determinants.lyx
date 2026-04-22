@@ -1312,7 +1312,7 @@ When
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status collapsed
+status open
 
 \begin_layout Standard
 We now turn our attention to the task of deriving an explicit formula for the determinant,
@@ -1339,6 +1339,29 @@ tuple "list"
 
  cases first,
  and then derive the formula for the general case.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+These examples are not strictly needed and one may choose to skip directly to 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:generalDet"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ as well.
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1978,6 +2001,12 @@ We now use our intuition to work out the general expression for the determinant 
 \end_layout
 
 \begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:generalDet"
+
+\end_inset
+
 Let 
 \begin_inset Formula $\det$
 \end_inset
@@ -2022,6 +2051,11 @@ where
 
  elements.
 \end_layout
+
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status collapsed
 
 \begin_layout Proof
 The strategy again is to 
@@ -2199,5 +2233,103 @@ tuple "list"
 \end_layout
 
 \end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+This completes the main result we wanted to discuss.
+ We now look at some other properties of the determinant.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+Show that 
+\begin_inset Formula $\det(A^{T})=\det(A)$
+\end_inset
+
+ where 
+\begin_inset Formula $A^{T}$
+\end_inset
+
+ is the transpose of 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ i.e.
+ 
+\begin_inset Formula $(A^{T})_{ij}=(A)_{ji}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i,j$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Solution*
+Let 
+\begin_inset Formula $B=A^{T}$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $b_{ij}=a_{ji}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+ (we are using 
+\begin_inset Formula $b_{ij}$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{ij}$
+\end_inset
+
+ to denote the 
+\begin_inset Formula $i$
+\end_inset
+
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column of 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $A$
+\end_inset
+
+ respectively).
+ Note 
+\begin_inset Formula 
+\begin{align*}
+\det A^{T}=\det B= & \sum_{\sigma\in S_{n}}b_{1\sigma(1)}b_{2\sigma(2)}\cdots b_{n\sigma(n)}\sign(\sigma)\\
+= & \sum_{\sigma\in S_{n}}a_{\sigma(1)1}a_{\sigma(2)2}\cdots a_{\sigma(n)n}\sign(\sigma)\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
