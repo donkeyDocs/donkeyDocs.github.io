@@ -1369,6 +1369,11 @@ tuple "list"
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status open
+
 \begin_layout Solution*
 We have 
 \begin_inset Formula 
@@ -1439,6 +1444,11 @@ b & 0\\
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
@@ -1503,6 +1513,8 @@ two rows point in the same direction
 \end_inset
 
 ,
+ i.e.
+ have non-zero values in the same column (and zeros in the remaining columns),
  e.g.
  it will have terms like 
 \begin_inset Formula 
@@ -1519,6 +1531,7 @@ c & 0
 \end_inset
 
 both of which are zero (as explained above).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1565,6 +1578,11 @@ tuple "list"
  
 \end_layout
 
+\begin_layout Example
+\begin_inset Branch proof
+inverted 0
+status open
+
 \begin_layout Solution*
 Our strategy would again be to decompose,
  in terms of linear combinations of rows,
@@ -1582,7 +1600,12 @@ tuple "list"
 \end_inset
 
 .
- We have 
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We have 
 \begin_inset Formula 
 \[
 \left|\begin{array}{ccc}
@@ -1607,7 +1630,10 @@ a_{31} & a_{32} & a_{33}
 \end_inset
 
 where each term is further decomposed into 9 more terms (3 for each of the remaining rows).
- Writing out the relevant terms in this expansion,
+\end_layout
+
+\begin_layout Itemize
+Writing out the relevant terms in this expansion,
  one can continue as follows 
 \begin_inset Formula 
 \begin{align*}
@@ -1650,6 +1676,10 @@ a_{21} & 0 & 0\\
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Itemize
 All but 
 \begin_inset Formula $6$
 \end_inset
@@ -1664,7 +1694,12 @@ row direction
 \end_inset
 
  is repeated.
- These 
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These 
 \begin_inset Formula $6$
 \end_inset
 
@@ -1675,26 +1710,98 @@ row direction
 \end_inset
 
  choices.
- There are 
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are 
 \begin_inset Formula $n=3$
 \end_inset
 
  choices for the first row.
- Once that is fixed,
+ 
+\end_layout
+
+\begin_layout Itemize
+Once that is fixed,
  one cannot have a term in that column,
  so there are 
 \begin_inset Formula $n-1=2$
 \end_inset
 
  choices for the next row.
- And finally,
+ 
+\end_layout
+
+\begin_layout Itemize
+And finally,
  there is only 
 \begin_inset Formula $1$
 \end_inset
 
  choice for the last row.
- [TODO:
- resume from page 10 of Gowtham's note next time]
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Focussing on the non-zero terms,
+ we have 
+\begin_inset Formula 
+\begin{align*}
+\det A= & \left|\begin{array}{ccc}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{array}\right|\\
+= & a_{11}a_{22}a_{33}\left|\begin{array}{ccc}
+1\\
+ & 1\\
+ &  & 1
+\end{array}\right|+a_{11}a_{23}a_{32}\left|\begin{array}{ccc}
+1\\
+ &  & 1\\
+ & 1
+\end{array}\right|\\
+ & a_{12}a_{21}a_{33}\left|\begin{array}{ccc}
+ & 1\\
+1\\
+ &  & 1
+\end{array}\right|+a_{12}a_{23}a_{31}\left|\begin{array}{ccc}
+ & 1\\
+ &  & 1\\
+1
+\end{array}\right|+\\
+ & a_{13}a_{21}a_{32}\left|\begin{array}{ccc}
+ &  & 1\\
+1\\
+ & 1
+\end{array}\right|+a_{13}a_{22}a_{31}\left|\begin{array}{ccc}
+ &  & 1\\
+ & 1\\
+1
+\end{array}\right|\\
+= & a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)+\\
+ & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right).
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_inset
+
+
 \end_layout
 
 \end_body
