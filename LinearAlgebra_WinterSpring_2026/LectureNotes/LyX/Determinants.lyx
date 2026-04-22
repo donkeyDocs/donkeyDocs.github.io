@@ -1586,7 +1586,7 @@ tuple "list"
  
 \end_layout
 
-\begin_layout Example
+\begin_layout Standard
 \begin_inset Branch proof
 inverted 0
 status open
@@ -1757,12 +1757,12 @@ And finally,
 Focussing on the non-zero terms,
  we have 
 \begin_inset Formula 
-\begin{align*}
+\begin{align}
 \det A= & \left|\begin{array}{ccc}
 a_{11} & a_{12} & a_{13}\\
 a_{21} & a_{22} & a_{23}\\
 a_{31} & a_{32} & a_{33}
-\end{array}\right|\\
+\end{array}\right|\nonumber \\
 = & a_{11}a_{22}a_{33}\left|\begin{array}{ccc}
 1\\
  & 1\\
@@ -1771,7 +1771,7 @@ a_{31} & a_{32} & a_{33}
 1\\
  &  & 1\\
  & 1
-\end{array}\right|\\
+\end{array}\right|\nonumber \\
  & a_{12}a_{21}a_{33}\left|\begin{array}{ccc}
  & 1\\
 1\\
@@ -1780,7 +1780,7 @@ a_{31} & a_{32} & a_{33}
  & 1\\
  &  & 1\\
 1
-\end{array}\right|+\\
+\end{array}\right|+\nonumber \\
  & a_{13}a_{21}a_{32}\left|\begin{array}{ccc}
  &  & 1\\
 1\\
@@ -1789,10 +1789,10 @@ a_{31} & a_{32} & a_{33}
  &  & 1\\
  & 1\\
 1
-\end{array}\right|\\
-= & a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)+\\
- & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right)
-\end{align*}
+\end{array}\right|\nonumber \\
+= & a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)+\nonumber \\
+ & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right)\label{eq:3by3derivation}
+\end{align}
 
 \end_inset
 
@@ -1807,24 +1807,40 @@ We now write this expression more systematically,
 
 \begin_deeper
 \begin_layout Itemize
-Note that one can continue with the equation above and write 
-\begin_inset Formula 
-\[
-=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)
-\]
+First,
+ let us recall some basics of permutation.
+ 
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Notation.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An example of a permutation 
+\begin_inset Formula $\sigma$
 \end_inset
 
-where 
-\begin_inset Formula 
-\begin{align*}
-S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
-= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} 
-\end{align*}
-
+ on 
+\begin_inset Formula $\{1,2,3\}$
 \end_inset
 
-and 
+ is 
+\begin_inset Formula $\sigma=(1,3,2)$
+\end_inset
+
+ which means 
+\begin_inset Formula $\sigma(1)=1,\sigma(2)=3,\sigma(3)=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+We define the sign of a permutation as
 \begin_inset Formula 
 \[
 \sign(\sigma)=\begin{cases}
@@ -1852,7 +1868,86 @@ with
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Fact.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Every permutation of a finite set can be expressed as the product of transpositions.
+ 
+\end_layout
+
+\begin_layout Itemize
+For a given permutation,
+ although many such expressions can exist
+\begin_inset Newline newline
+\end_inset
+
+they all contain either 
+\begin_inset Newline newline
+\end_inset
+
+an even number of transpositions or 
+\begin_inset Newline newline
+\end_inset
+
+an odd number of transpositions.
+\end_layout
+
 \end_deeper
+\end_deeper
+\begin_layout Itemize
+Returning to our discussion,
+ note that one can continue with 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:3by3derivation"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ above and write 
+\begin_inset Formula 
+\[
+=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula 
+\begin{align*}
+S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
+= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} .
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+We now continue 
+\end_layout
+
 \end_inset
 
 
