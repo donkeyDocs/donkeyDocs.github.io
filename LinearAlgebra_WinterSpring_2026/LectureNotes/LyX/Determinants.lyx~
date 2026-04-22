@@ -1312,7 +1312,7 @@ When
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Standard
 We now turn our attention to the task of deriving an explicit formula for the determinant,
@@ -1380,7 +1380,7 @@ tuple "list"
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status open
+status collapsed
 
 \begin_layout Solution*
 We have 
@@ -1460,7 +1460,7 @@ b & 0\\
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
-status open
+status collapsed
 
 \begin_layout Standard
 One can already see a pattern emerge.
@@ -1586,10 +1586,10 @@ tuple "list"
  
 \end_layout
 
-\begin_layout Example
+\begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status open
+status collapsed
 
 \begin_layout Solution*
 Our strategy would again be to decompose,
@@ -1914,9 +1914,9 @@ tuple "list"
 
  above and write 
 \begin_inset Formula 
-\[
-=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)
-\]
+\begin{equation}
+\det(A)=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)\label{eq:3times3generalisable}
+\end{equation}
 
 \end_inset
 
@@ -1924,7 +1924,7 @@ where
 \begin_inset Formula 
 \begin{align*}
 S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
-= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} 
+= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} .
 \end{align*}
 
 \end_inset
@@ -1939,5 +1939,133 @@ S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status collapsed
+
+\begin_layout Itemize
+Our expression for the determinant for the 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ case 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:3times3generalisable"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ is quite suggestive.
+\end_layout
+
+\begin_layout Itemize
+We now use our intuition to work out the general expression for the determinant of an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+Let 
+\begin_inset Formula $\det$
+\end_inset
+
+ be any function satisfying 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $A\in\F^{n\times n}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\det(A)$
+\end_inset
+
+ is uniquely specified by 
+\begin_inset Formula 
+\[
+\det(A)=\sum_{\sigma\in S_{n}}a_{1\sigma(1)}a_{2\sigma(2)}\cdots a_{n\sigma(n)}\sign(\sigma)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ is the set of all permutations on 
+\begin_inset Formula $n$
+\end_inset
+
+ elements.
+\end_layout
+
+\begin_layout Proof
+The strategy again is to 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+decompose each row such that it has only one non-zero column vector,
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+by invoking Axiom 3 repeatedly,
+ and
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+argue that all but 
+\begin_inset Formula $n!$
+\end_inset
+
+ terms yield 
+\begin_inset Formula $0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+by using the various properties of the determinant we proved (primarily Property 1).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Write 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
