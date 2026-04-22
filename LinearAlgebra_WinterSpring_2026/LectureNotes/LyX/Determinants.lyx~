@@ -224,6 +224,26 @@ I only made a few minor narrative/editorial changes.
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tr}{\mathsf{Tr}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Tr}{\mathsf{Tr}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+In the syllabus
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
 status collapsed
@@ -2333,6 +2353,155 @@ th column of
 \end_inset
 
 
+\end_layout
+
+\begin_layout Proposition
+It holds that 
+\begin_inset Formula $\det(AB)=\det A\cdot\det B$
+\end_inset
+
+ if 
+\begin_inset Formula $\det A,\det B\neq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+Proceed as follows.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define 
+\begin_inset Formula $d(A,B):=\det(AB)/\det(B)$
+\end_inset
+
+.
+ Treat 
+\begin_inset Formula $d$
+\end_inset
+
+ as a function of 
+\begin_inset Formula $A$
+\end_inset
+
+ (keep 
+\begin_inset Formula $B$
+\end_inset
+
+ fixed).
+\end_layout
+
+\begin_layout Itemize
+Claim (left as an exercise).
+ 
+\begin_inset Formula $d(A)$
+\end_inset
+
+ satisfies the axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ (i.e.
+ 
+\begin_inset Formula $d(I)=1$
+\end_inset
+
+,
+ anti-symmetry and linearity in any row).
+ 
+\end_layout
+
+\begin_layout Itemize
+We already showed (in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:generalDet"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+) that any function that satisfies the axioms in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "def:AxiomsForDeterminant"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ is uniquely specified,
+ we conclude that 
+\begin_inset Formula 
+\[
+d(A)=\det(AB)/\det(B)=\det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Recommended reading (ungraded)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status open
+
+\begin_layout Standard
+In this part,
+ we briefly look at the trace and a few applications of the determinant.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+For an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\tr(A)=\sum^{n}_{i=1}a_{ii}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body
