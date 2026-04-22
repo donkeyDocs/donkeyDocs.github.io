@@ -2023,6 +2023,11 @@ where
  elements.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status open
+
 \begin_layout Proof
 The strategy again is to 
 \end_layout
@@ -2110,9 +2115,99 @@ where
 
 \end_inset
 
-Note that this sum 
+
+\end_layout
+
+\begin_layout Itemize
+Note that this sum contains 
+\begin_inset Formula 
+\[
+\underbrace{n\cdot n\cdot\cdots n}_{n\text{- many}}=n^{n}
+\]
+
+\end_inset
+
+ terms but most of these are zero.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Concretely,
+ if any two of the indices 
+\begin_inset Formula $j_{1},\dots j_{n}$
+\end_inset
+
+ coincide,
+ then 
+\begin_inset Formula $\det(e_{j_{1}},\dots e_{j_{n}})=0$
+\end_inset
+
+ (by Property 1).
+ 
+\end_layout
+
+\begin_layout Itemize
+Consequently,
+ the sum can be simplified as follows 
+\begin_inset Formula 
+\begin{equation}
+\det A=\sum_{\sigma\in S_{n}}a_{1\sigma(1)}a_{2\sigma(2)}\cdots a_{n\sigma(n)}\det(e_{1\sigma(1)},\cdots,e_{n\sigma(n)})\label{eq:secondLast}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ is the set of all permutations on 
+\begin_inset Formula $\{1,2\dots,n\}$
+\end_inset
+
+ and 
+\begin_inset Formula $|S_{n}|=n!$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Note also that 
+\begin_inset Formula 
+\begin{equation}
+\det(e_{1\sigma(1)},\dots e_{n\sigma(n)})=\sign(\sigma)\label{eq:last}
+\end{equation}
+
+\end_inset
+
+using Axiom 2 and Axiom 1.
+\end_layout
+
+\begin_layout Standard
+Combining 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:secondLast,eq:last"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+,
+ we get the desired expression.
+ 
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
