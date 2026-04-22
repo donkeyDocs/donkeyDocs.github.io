@@ -216,6 +216,14 @@ I only made a few minor narrative/editorial changes.
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sign}{\mathsf{sign}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
 status collapsed
@@ -1755,7 +1763,7 @@ a_{11} & a_{12} & a_{13}\\
 a_{21} & a_{22} & a_{23}\\
 a_{31} & a_{32} & a_{33}
 \end{array}\right|\\
- & a_{11}a_{22}a_{33}\left|\begin{array}{ccc}
+= & a_{11}a_{22}a_{33}\left|\begin{array}{ccc}
 1\\
  & 1\\
  &  & 1
@@ -1783,21 +1791,59 @@ a_{31} & a_{32} & a_{33}
 1
 \end{array}\right|\\
 = & a_{11}\left(a_{22}a_{33}-a_{23}a_{32}\right)+a_{12}\left(a_{23}a_{31}-a_{21}a_{33}\right)+\\
- & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right).
+ & a_{13}\left(a_{21}a_{32}-a_{22}a_{31}\right)
 \end{align*}
 
 \end_inset
 
+ as asserted.
+\end_layout
 
+\begin_layout Itemize
+We now write this expression more systematically,
+ to see if a more generalisable formula can be obtained.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that one can continue with the equation above and write 
 \begin_inset Formula 
 \[
+=\sum_{\sigma\in S_{3}}a_{1\sigma(1)}a_{2\sigma(2)}a_{3\sigma(3)}\sign(\sigma)
 \]
 
 \end_inset
 
+where 
+\begin_inset Formula 
+\begin{align*}
+S_{3}:= & \text{Set of all permutations on \ensuremath{\{1,2,3\}}}\\
+= & \left\{ (1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)\right\} 
+\end{align*}
 
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\sign(\sigma)=\begin{cases}
+1 & \text{if \ensuremath{N_{\sigma}} is even}\\
+0 & \text{if \ensuremath{N_{\sigma}} is odd}
+\end{cases}
+\]
+
+\end_inset
+
+with 
+\begin_inset Formula $N_{\sigma}$
+\end_inset
+
+ being the number of pairwise exchanges required to affect the permutation.
+ 
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_inset
 
