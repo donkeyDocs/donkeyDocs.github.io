@@ -167,8 +167,11 @@ End
 
 \begin_layout Title
 Determinant and Trace
+\end_layout
+
+\begin_layout Author
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Primarily based on Gowtham Kurri's note (which are based on Gilbert Strang's lectures/text and 
@@ -180,8 +183,7 @@ Linear Algebra Done Wrong
 \end_inset
 
 ).
- I re-arranged a few things and hopefully,
- improved the presentation/arguments slightly for my own understanding.
+ I re-arranged a few things and (hopefully) improved the presentation/arguments slightly for my own understanding.
  
 \end_layout
 
@@ -192,6 +194,7 @@ Linear Algebra Done Wrong
 
 \begin_layout Date
 (Last Edited:
+ 6:50 PM,
  Friday,
  April 24,
  2026)
