@@ -166,7 +166,8 @@ End
 \begin_body
 
 \begin_layout Title
-Determinant and Trace
+Stolen Notes:
+ Determinant and Trace
 \end_layout
 
 \begin_layout Author
@@ -179,7 +180,8 @@ Atul Singh Arora
 status open
 
 \begin_layout Plain Layout
-Primarily based on Gowtham Kurri's handwritten note on the same topic (which in turn are based on Gilbert Strang's lectures/text and 
+Almost entirely based on Gowtham Kurri's handwritten note on the same topic (who collected these results from a variety of different sources,
+ including Gilbert Strang's lectures/text and the textbook 
 \begin_inset Quotes bld
 \end_inset
 
@@ -189,6 +191,10 @@ Linear Algebra Done Wrong
 
 ).
  I re-arranged a few things and (hopefully) improved the presentation/arguments slightly for my own understanding.
+ If spot any errors,
+ please drop me an email.
+ Thanks.
+ 
 \end_layout
 
 \end_inset
