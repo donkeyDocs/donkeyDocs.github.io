@@ -938,7 +938,7 @@ The determinant of a diagonal matrix or a triangular matrix is equal to the prod
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status collapsed
+status open
 
 \begin_layout Proof
 Write 
@@ -1330,7 +1330,35 @@ Suppose
 \end_inset
 
  such that one of its rows is zero.
- In this case,
+ (For instance,
+ suppose in a 
+\begin_inset Formula $4\times4$
+\end_inset
+
+ matrix,
+ the first and the third diagonal entries are zero.
+ Then,
+ it is not hard to see that the third row can be made zero,
+ e.g.
+\begin_inset Formula 
+\[
+\left|\begin{array}{cccc}
+0 & a_{12} & a_{13} & a_{14}\\
+ & a_{22} & a_{23} & a_{24}\\
+ &  & 0 & a_{34}\\
+ &  &  & a_{44}
+\end{array}\right|=\left|\begin{array}{cccc}
+0 & 0 & a'_{13} & 0\\
+ & a_{22} & a'_{23} & 0\\
+ &  & 0 & 0\\
+ &  &  & a_{44}
+\end{array}\right|=0.
+\]
+
+\end_inset
+
+This approach readily generalises—
+look at the row corresponding to the last diagonal entry that is zero and one can make this row zero.) In this case,
  
 \begin_inset Formula 
 \begin{align*}
