@@ -167,11 +167,19 @@ End
 
 \begin_layout Title
 Determinant and Trace
+\end_layout
+
+\begin_layout Author
+Atul Singh Arora 
+\begin_inset Newline newline
+\end_inset
+
+(stolen from Gowtham Kurri)
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Primarily based on Gowtham Kurri's note (which are based on Gilbert Strang's lectures/text and 
+Primarily based on Gowtham Kurri's handwritten note on the same topic (which in turn are based on Gilbert Strang's lectures/text and 
 \begin_inset Quotes bld
 \end_inset
 
@@ -181,7 +189,6 @@ Linear Algebra Done Wrong
 
 ).
  I re-arranged a few things and (hopefully) improved the presentation/arguments slightly for my own understanding.
- 
 \end_layout
 
 \end_inset
