@@ -166,29 +166,49 @@ End
 \begin_body
 
 \begin_layout Title
-Determinants
+Determinant and Trace
 \end_layout
 
 \begin_layout Author
-Essentially a transcription of 
+Atul Singh Arora 
 \begin_inset Newline newline
 \end_inset
 
-Gowtham Kurri's note (based on Gilbert Strang's lectures) 
-\begin_inset Newline newline
-\end_inset
-
-on the same topic
+(stolen from Gowtham Kurri)
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-I only made a few minor narrative/editorial changes.
+Primarily based on Gowtham Kurri's handwritten note on the same topic (which in turn are based on Gilbert Strang's lectures/text and 
+\begin_inset Quotes bld
+\end_inset
+
+Linear Algebra Done Wrong
+\begin_inset Quotes brd
+\end_inset
+
+).
+ I re-arranged a few things and (hopefully) improved the presentation/arguments slightly for my own understanding.
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Date
+(Last Edited:
+ 6:50 PM,
+ Friday,
+ April 24,
+ 2026)
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+This is an early release;
+ may contain a few errors
 \end_layout
 
 \begin_layout Standard
@@ -239,8 +259,20 @@ I only made a few minor narrative/editorial changes.
 
 \end_layout
 
+\begin_layout Standard
+Here,
+ unless explicitly stated otherwise,
+ assume the matrices are square.
+ 
+\end_layout
+
 \begin_layout Section
 In the syllabus
+\end_layout
+
+\begin_layout Subsection
+Determinant—
+Axiomatic Definition
 \end_layout
 
 \begin_layout Standard
@@ -790,6 +822,10 @@ In fact,
 
 \end_layout
 
+\begin_layout Subsection
+Properties of the determinant
+\end_layout
+
 \begin_layout Standard
 \begin_inset Branch commentary
 inverted 0
@@ -909,7 +945,7 @@ The determinant of a diagonal matrix or a triangular matrix is equal to the prod
 \begin_layout Standard
 \begin_inset Branch proof
 inverted 0
-status collapsed
+status open
 
 \begin_layout Proof
 Write 
@@ -1301,7 +1337,35 @@ Suppose
 \end_inset
 
  such that one of its rows is zero.
- In this case,
+ (For instance,
+ suppose in a 
+\begin_inset Formula $4\times4$
+\end_inset
+
+ matrix,
+ the first and the third diagonal entries are zero.
+ Then,
+ it is not hard to see that the third row can be made zero,
+ e.g.
+\begin_inset Formula 
+\[
+\left|\begin{array}{cccc}
+0 & a_{12} & a_{13} & a_{14}\\
+ & a_{22} & a_{23} & a_{24}\\
+ &  & 0 & a_{34}\\
+ &  &  & a_{44}
+\end{array}\right|=\left|\begin{array}{cccc}
+0 & 0 & a'_{13} & 0\\
+ & a_{22} & a'_{23} & 0\\
+ &  & 0 & 0\\
+ &  &  & a_{44}
+\end{array}\right|=0.
+\]
+
+\end_inset
+
+This approach readily generalises—
+look at the row corresponding to the last diagonal entry that is zero and one can make this row zero.) In this case,
  
 \begin_inset Formula 
 \begin{align*}
@@ -1387,6 +1451,10 @@ tuple "list"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Uniqueness from the axiomatic definition
 \end_layout
 
 \begin_layout Example
@@ -2361,7 +2429,11 @@ It holds that
 \end_inset
 
  if 
-\begin_inset Formula $\det A,\det B\neq0$
+\begin_inset Formula $\det A\neq0$
+\end_inset
+
+ or 
+\begin_inset Formula $\det B\neq0$
 \end_inset
 
 .
@@ -2486,6 +2558,10 @@ In this part,
 
 \end_layout
 
+\begin_layout Subsection
+Trace
+\end_layout
+
 \begin_layout Definition
 \begin_inset Argument 1
 status open
@@ -2515,6 +2591,961 @@ Trace
 
 .
  
+\end_layout
+
+\begin_layout Itemize
+The trace is very useful in a variety of situations.
+ Here's a nice relation between determinants,
+ traces and the exponentiation function,
+ that is extended to matrices by its power-series
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $\exp(A):=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\det(\exp(A))=\exp(\tr(A)).
+\]
+
+\end_inset
+
+This also shows up in physics.
+ 
+\end_layout
+
+\begin_layout Subsection
+Inverse
+\end_layout
+
+\begin_layout Standard
+We outline the idea behind the proof of this statement.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\det A$
+\end_inset
+
+ turns out to be useful for computation of the inverse of a matrix,
+ if it exists.
+\end_layout
+
+\begin_layout Itemize
+For the case of 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ matrices,
+ since we already have the formula for inverse,
+ we can try to see how it relates to the determinant,
+ i.e.
+\begin_inset Formula 
+\begin{align*}
+\left[\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right]^{-1} & =\frac{1}{ad-bc}\left[\begin{array}{cc}
+d & -b\\
+-c & a
+\end{array}\right]\\
+ & =\frac{1}{\det A}\left[\begin{array}{cc}
+c_{11} & c_{21}\\
+c_{12} & c_{22}
+\end{array}\right]
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $c_{ij}$
+\end_inset
+
+ is the co-factor of 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+th entry defined as 
+\begin_inset Formula $c_{ij}=(-1)^{i+j}\det M_{ij}$
+\end_inset
+
+,
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+where 
+\begin_inset Formula $M_{ij}$
+\end_inset
+
+ is the sub-matrix of 
+\begin_inset Formula $A$
+\end_inset
+
+ obtained by removing the 
+\begin_inset Formula $i$
+\end_inset
+
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In general,
+ it turns out that one can compute inverse of 
+\begin_inset Formula $A$
+\end_inset
+
+ using 
+\begin_inset Formula 
+\[
+\boxed{A^{-1}=\frac{C^{T}}{\det A}}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $C$
+\end_inset
+
+ is the matrix with 
+\begin_inset Formula $c_{ij}$
+\end_inset
+
+ as its entry in the 
+\begin_inset Formula $i$
+\end_inset
+
+th row and 
+\begin_inset Formula $j$
+\end_inset
+
+th column.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that the equation above says 
+\begin_inset Formula $(A^{-1})_{ij}=c_{ji}/\det A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Fact
+\begin_inset Formula $AA^{-1}=A^{-1}A=I$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Suppose the left and right inverses were different,
+ call them 
+\begin_inset Formula $L$
+\end_inset
+
+ and 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\[
+L=LI=L(AR)=(LA)R=IR=R,
+\]
+
+\end_inset
+
+i.e.
+ the left and right inverses must be the same.
+ 
+\end_layout
+
+\begin_layout Lemma
+\begin_inset CommandInset label
+LatexCommand label
+name "lem:detInvert"
+
+\end_inset
+
+Let 
+\begin_inset Formula $A$
+\end_inset
+
+ be an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix.
+ Then,
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ is invertible if and only if 
+\begin_inset Formula $\det A\neq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof sketch.
+\end_layout
+
+\end_inset
+
+To see that 
+\begin_inset Formula $\det A\neq0$
+\end_inset
+
+ is necessary for the inverse to exist,
+ suppose 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+ exists.
+ Then 
+\begin_inset Formula 
+\begin{align*}
+\det(AA^{-1}) & =\det(A)\det(A^{-1})\\
+ & =\det(I)=1
+\end{align*}
+
+\end_inset
+
+since
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Not very happy with this because we proved 
+\begin_inset Formula $\det(AB)=\det A\cdot\det B$
+\end_inset
+
+ only holds when at least one of 
+\begin_inset Formula $\det A,\det B$
+\end_inset
+
+ is non-zero.
+ But the formula,
+ it appears,
+ hold in general.
+ 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\det(AA^{-1})=\det(I)$
+\end_inset
+
+.
+ This equation can only hold if both 
+\begin_inset Formula $\det A$
+\end_inset
+
+ and 
+\begin_inset Formula $\det A^{-1}$
+\end_inset
+
+ are non-zero.
+ 
+\end_layout
+
+\begin_layout Proof
+To see why this is sufficient,
+ we invoke the formula for 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+ above.
+\end_layout
+
+\begin_layout Subsection
+Relation with eigenvalues
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch commentary
+inverted 0
+status collapsed
+
+\begin_layout Standard
+To state the next lemma,
+ we recall that
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ if 
+\begin_inset Formula 
+\[
+Ax=\lambda x,\quad\forall x\in\F^{n},x\neq0
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula $\F\in\{\R,\C\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of an operator 
+\begin_inset Formula $T$
+\end_inset
+
+ if there is a non-zero 
+\begin_inset Formula $x$
+\end_inset
+
+ such that 
+\begin_inset Formula $Tx=\lambda x$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Lemma
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of a matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $\det(A-\lambda I)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Note that for an 
+\begin_inset Formula $x\neq0$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{align*}
+ & Ax=\lambda x\\
+\iff & (A-\lambda I)x=0,\\
+\iff & (A-\lambda I) & \text{is not invertible}.
+\end{align*}
+
+\end_inset
+
+Using 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "lem:detInvert"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ we have that 
+\begin_inset Formula $A'$
+\end_inset
+
+ is invertible if and only if 
+\begin_inset Formula $\det A'\neq0$
+\end_inset
+
+.
+ Setting 
+\begin_inset Formula $A'=(A-\lambda I)$
+\end_inset
+
+,
+ we obtain the result.
+\end_layout
+
+\begin_layout Remark
+\begin_inset CommandInset label
+LatexCommand label
+name "rem:RootsOfDet(A-lambdaI)"
+
+\end_inset
+
+For an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ the roots of 
+\begin_inset Formula $\det(A-\lambda I)=0$
+\end_inset
+
+ gives the eigenvalues of 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ These are the 
+\begin_inset Formula $n$
+\end_inset
+
+ eigenvalues counting multiplicities of the roots.
+ 
+\end_layout
+
+\begin_layout Standard
+We are almost done.
+ Let us look at how the trace and determinant relate to eigenvalues of a matrix.
+ 
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:det_tr_prod_sum"
+
+\end_inset
+
+Let 
+\begin_inset Formula $A$
+\end_inset
+
+ be an 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrix over complex numbers 
+\begin_inset Formula $\C$
+\end_inset
+
+ and let 
+\begin_inset Formula $\lambda_{1},\dots\lambda_{n}$
+\end_inset
+
+ be its eigenvalues (counting multiplicities).
+ Then,
+ 
+\begin_inset Formula $\tr(A)=\sum^{n}_{i=1}\lambda_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\det A=\prod^{n}_{i=1}\lambda_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status collapsed
+
+\begin_layout Proof
+We start with 
+\begin_inset Formula $\det A$
+\end_inset
+
+.
+ We have 
+\begin_inset Formula 
+\[
+\det(A-\lambda I)=\prod^{n}_{i=1}(\lambda_{i}-\lambda)
+\]
+
+\end_inset
+
+from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "rem:RootsOfDet(A-lambdaI)"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ for any 
+\begin_inset Formula $\lambda\in\C$
+\end_inset
+
+.
+ Setting 
+\begin_inset Formula $\lambda=0$
+\end_inset
+
+,
+ we obtain 
+\begin_inset Formula $\det A=\prod^{n}_{i=1}\lambda_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+Let us now look at 
+\begin_inset Formula $\tr(A)$
+\end_inset
+
+.
+ The idea here is to look at 
+\begin_inset Formula $\det(A-\lambda I)$
+\end_inset
+
+ as a polynomial in 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ but in two different ways and then equating the appropriate coefficient of 
+\begin_inset Formula $\lambda^{n-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Observe that the coefficient of 
+\begin_inset Formula $\lambda^{n-1}$
+\end_inset
+
+ in 
+\begin_inset Formula $\det(A-\lambda I)=(\lambda_{1}-\lambda)\cdots(\lambda_{n}-\lambda)$
+\end_inset
+
+ is 
+\begin_inset Formula 
+\begin{equation}
+\mathsf{coeff}:=(-1)^{n-1}(\lambda_{1}+\cdots+\lambda_{n}).\label{eq:sum}
+\end{equation}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Also,
+ observe that 
+\begin_inset Formula 
+\[
+\det(A-\lambda I)=\sum^{n}_{i=1}(a_{ii}-\lambda)+q(\lambda)
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $q(\lambda)$
+\end_inset
+
+ is a polynomial of degree at most 
+\begin_inset Formula $n-2$
+\end_inset
+
+ (in 
+\begin_inset Formula $\lambda$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is easily seen from the formula of 
+\begin_inset Formula $\det$
+\end_inset
+
+ in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:generalDet"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ and 
+\end_layout
+
+\begin_layout Itemize
+noting that the remaining terms will have at least two terms that are not along the diagonal.
+\end_layout
+
+\begin_layout Itemize
+Therefore,
+ the coefficient of 
+\begin_inset Formula $\lambda^{n-1}$
+\end_inset
+
+ in 
+\begin_inset Formula $\det(A-\lambda I)$
+\end_inset
+
+ must come from 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the coefficient of 
+\begin_inset Formula $\lambda^{n-1}$
+\end_inset
+
+ 
+\begin_inset Formula $\sum^{n}_{i=1}(a_{ii}-\lambda)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Itemize
+which in turn is
+\begin_inset Formula 
+\[
+\mathsf{coeff}':=(-1)^{n-1}(a_{11}+\cdots+a_{nn})=(-1)^{n-1}\tr(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Clearly,
+ 
+\begin_inset Formula $\mathsf{coeff}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathsf{coeff'}$
+\end_inset
+
+ are the same quantity,
+ evaluated differently.
+ Equating them,
+ we get 
+\begin_inset Formula 
+\[
+\tr(A)=(\lambda_{1}+\cdots+\lambda_{n})
+\]
+
+\end_inset
+
+as asserted.
+ 
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Determinants and Traces of operators
+\end_layout
+
+\begin_layout Standard
+We end this discussion by extending the notion of trace and determinants to operators.
+ We start with trace.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
+In Problem 1 in Problem Set 9,
+ we had stated the following:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is an eigenvalue of an operator 
+\begin_inset Formula $T$
+\end_inset
+
+ 
+\begin_inset Formula $\iff$
+\end_inset
+
+ the matrix 
+\begin_inset Formula $[T-\lambda I]_{B}$
+\end_inset
+
+ is not invertible for any basis 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Thus,
+ the eigenvalues of an arbitrary operator 
+\begin_inset Formula $T\in L(V)$
+\end_inset
+
+ can be computed by fixing any basis 
+\begin_inset Formula $B$
+\end_inset
+
+ and solving 
+\begin_inset Formula $\det([T-\lambda I]_{B})=0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+One might wonder whether the result could on the choice of the basis.
+ It cannot.
+\end_layout
+
+\begin_layout Claim
+Prove that 
+\begin_inset Formula $\det([T-\lambda I]_{B})=\det([T-\lambda I]_{B'})$
+\end_inset
+
+ where 
+\begin_inset Formula $B,B'$
+\end_inset
+
+ are distinct bases.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch proof
+inverted 0
+status collapsed
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof sketch
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Show that 
+\begin_inset Formula $[T-\lambda I]_{B}$
+\end_inset
+
+ and 
+\begin_inset Formula $[T-\lambda I]_{B'}$
+\end_inset
+
+ are 
+\emph on
+similar
+\emph default
+ matrices.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use that for any matrix 
+\begin_inset Formula $T'$
+\end_inset
+
+,
+ 
+\begin_inset Formula $[T']_{B}$
+\end_inset
+
+ is similar to 
+\begin_inset Formula $[T']_{B'}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Then argue that similar matrices have the same determinant.
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We are now ready to define trace and determinant for operators.
+ 
+\end_layout
+
+\begin_layout Itemize
+Based on this discussion,
+ and the fact that 
+\begin_inset Formula $\tr(A)$
+\end_inset
+
+ for a matrix is simply the sum of its eigenvalues (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:det_tr_prod_sum"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+),
+ one can define trace for an operator 
+\begin_inset Formula $T$
+\end_inset
+
+ as follows:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For 
+\begin_inset Formula $T\in{\cal L}(V)$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{align*}
+\tr(T):= & \text{sum of eigenvalues of \ensuremath{T}}\\
+= & \text{sum of eigenvalues of \ensuremath{[T]_{B}}}\\
+= & \lambda_{1}+\lambda_{2}+\dots+\lambda_{n}.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One can proceed similarly for the determinant,
+ i.e.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+note that it stays invariant under similarity transformations and 
+\end_layout
+
+\begin_layout Itemize
+use the characterisation as product of eigenvalues from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "thm:det_tr_prod_sum"
+plural "false"
+caps "true"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+,
+ to write
+\end_layout
+
+\begin_layout Itemize
+For 
+\begin_inset Formula $T\in{\cal L}(V)$
+\end_inset
+
+,
+ 
+\begin_inset Formula 
+\begin{align*}
+\det(A):= & \text{product of eigenvalues of \ensuremath{T}}\\
+= & \text{product of eigenvalues of }[T]_{B}\\
+= & \lambda_{1}\cdots\lambda_{n}.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \end_body
