@@ -3548,6 +3548,87 @@ For
 
 \end_deeper
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+You seem to be using this as a fact in your argument:
+ 
+\begin_inset Formula $(T-\ell I)u=-(T-\ell I)v$
+\end_inset
+
+ implies 
+\begin_inset Formula $u=-v$
+\end_inset
+
+ (assuming 
+\begin_inset Formula $u$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+ are note zero vectors,
+ and they are not in the 
+\begin_inset Formula $\mathsf{nullspace(T)}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Plain Layout
+Since you have given no real justification,
+ it appears you are assuming that for any matrix 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consider 
+\begin_inset Formula $A=\left[\begin{array}{cc}
+1\\
+ & 0
+\end{array}\right]$
+\end_inset
+
+,
+ 
+\begin_inset Formula $v_{1}=\left[\begin{array}{c}
+1\\
+1
+\end{array}\right]$
+\end_inset
+
+,
+ 
+\begin_inset Formula $v_{2}=\left[\begin{array}{c}
+-1\\
+1
+\end{array}\right]$
+\end_inset
+
+.
+ Clearly,
+ 
+\begin_inset Formula $Av_{1}=-Av_{2}$
+\end_inset
+
+ but 
+\begin_inset Formula $v_{1}\neq-v_{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
